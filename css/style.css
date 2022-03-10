@@ -62,6 +62,7 @@ header {
 @media screen and (max-width: 720px) {
   #wrap {
     grid-template-columns: 1fr;
+    grid-template-rows: 0fr;
     padding: 12px;
   }
 }

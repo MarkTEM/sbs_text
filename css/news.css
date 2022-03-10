@@ -64,7 +64,7 @@ header {
 @media screen and (max-width: 720px) {
   #wrap {
     grid-template-columns: 1fr;
-    padding: 12px;
+    padding: 8px;
   }
 }
 
@@ -202,9 +202,9 @@ header {
 }
 @media screen and (min-width: 720px) {
   .content {
-    border-left: 1px dashed var(--color-border);
-    border-right: 1px dashed var(--color-border);
-    padding: 20px;
+    /* border-left: 1px dashed var(--color-border); */
+    /* border-right: 1px dashed var(--color-border); */
+    /* padding: 20px; */
   }
 }
 
@@ -217,7 +217,7 @@ header {
 }
 @media screen and (max-width: 720px) {
   .box__1 {
-    padding: 30px 15px;
+    padding: 20px 10px;
   }
 }
 .box__1 p{
@@ -226,13 +226,19 @@ header {
   margin: 20px 0;
 }
 
+.live__cont {
+  border-bottom: 1px solid #252527;
+  width: 100%;
+  margin: 60px auto;
+}
+@media screen and (max-width: 720px) { .live__cont { margin: 30px auto; } }
 
 .box_programs2 {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .program__up {
@@ -282,9 +288,9 @@ header {
 .btn__go {
   font-size: 15px;
   font-weight: 500;
-  padding: .7em 1.6em;
+  padding: .6em 1.6em;
   border: 0px;
-  border-radius: 24px;
+  border-radius: 10px;
   color: #F2F2F2;
   background: var(--color-elements);
 }

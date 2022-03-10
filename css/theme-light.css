@@ -34,7 +34,7 @@
 
 }
 
-h1 { font-size: 22px; color: var(--color-txt); font-weight: 700; transition: .2s; }
+h1 { font-weight: 700; }
 h3 { font-size: 1em; color: var(--color-txt); font-weight: 600; }
 
 .change-theme[data-theme="light"] {

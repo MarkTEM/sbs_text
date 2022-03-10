@@ -31,6 +31,10 @@ body::-webkit-scrollbar-track-piece { border-radius: 2rem; }
 a { text-decoration: none; }
 h1 { font-size: 22px; color: var(--color-txt); font-weight: 600; transition: .2s; }
 @media screen and (max-width: 720px) { h1 { font-size: 18px; transition: .2s;} }
+
+h2 { font-size: 18px; color: var(--color-txt); font-weight: 600; transition: .2s; }
+@media screen and (max-width: 720px) { h2 { font-size: 16px; transition: .2s;} }
+
 h3 { font-size: 1em; color: var(--color-txt); font-weight: 400; }
 /* h1 { font-size: 24px; } */
 
@@ -60,6 +64,15 @@ h3 { font-size: 1em; color: var(--color-txt); font-weight: 400; }
   opacity: 50%;
   transition: .2s;
   
+}
+@media screen and (max-width: 720px) {
+  .ico__b {
+    height: 2.2em;
+    width: 2.2em;
+    background-size: 1.4em 1.4em;
+    opacity: 70%;
+    transition: .2s;
+  }
 }
 .ico__b:hover {
   border: 1px solid #2d2d31;
