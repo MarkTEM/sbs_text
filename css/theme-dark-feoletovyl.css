@@ -1,0 +1,33 @@
+:root {
+
+    --color-bg: #110F12;
+    --color-txt: #F2F2F2;
+    --color-box: #1E1C22;
+
+    --color-item: #17151A;
+
+    --color-elements: #7751C2;
+    --color-border: #2d2d31;
+    /* --color-elements: #3282CD; */
+    --ico-back: url(../ico/ico_back.svg);
+    --ico-home: url(../ico/ico_home.svg);
+    --ico-settings: url(../ico/ico_settings.svg);
+
+    --radius: 15px;
+
+    --shad: 0;
+
+    --cont-padding: 30px;
+    --cont-padding2: 15px;
+
+}
+
+.change-theme[data-theme="dark-feoletovyl"] {
+    background: var(--color-elements);
+    border: 1px solid var(--color-elements);
+}
+
+/* a {
+    color: #F2930C;
+    text-decoration: underline;
+} */

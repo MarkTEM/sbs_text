@@ -1,0 +1,44 @@
+:root {
+
+    --color-bg: #fafafa;
+    --color-txt: #202020;
+    --color-box: #FFFFFF;
+
+    --color-item: #f1f1f1;
+    --color-item2: #fff;
+    --color-border: #c2c2c2;
+
+    --color-elements: rgb(2, 133, 255);
+    /* --color-elements: #3282CD; */
+    /* ICO */
+    --ico-back: url(../ico/ico_back_dark.svg);
+    --ico-home: url(../ico/ico_home_dark.svg);
+    --ico-settings: url(../ico/ico_settings_dark.svg);
+    --ico-search: url(../ico/ico_search_dark.svg);
+    --ico-dop: url(../ico/ico_dop_dark.svg);
+    --ico-new: url(../ico/ico_new_dark.svg);
+    --ico-prog: url(../ico/ico_prog_dark.svg);
+    --ico-workout: url(../ico/ico_workout_dark.svg);
+    --ico-exercises: url(../ico/ico_exercises_dark.svg);
+
+    --fil-prog: url(../img/fil-light-p_up.png);
+
+    --ico-lock: url(../ico/ico_lock_dark.svg);
+
+    --radius: 15px;
+
+    --shad: 0px 1px 4px rgb(0 0 0 / 10%);
+
+    --cont-padding: 30px;
+    --cont-padding2: 15px;
+
+}
+
+h1 { font-size: 22px; color: var(--color-txt); font-weight: 700; transition: .2s; }
+h3 { font-size: 1em; color: var(--color-txt); font-weight: 600; }
+
+.change-theme[data-theme="light"] {
+    background: var(--color-elements);
+    border: 1px solid var(--color-elements);
+    color: #F2F2F2;
+}

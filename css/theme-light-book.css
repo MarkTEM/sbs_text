@@ -1,0 +1,23 @@
+:root {
+
+    --color-bg: #F6F5F3;
+    --color-txt: #202020;
+    --color-box: #EAE7E2;
+
+    --color-item: #f5f5f5;
+
+    --color-elements: #BABABA;
+    /* --color-elements: #3282CD; */
+
+    --radius: 15px;
+
+    --shad: 0px 1px 4px rgb(0 0 0 / 10%);
+
+    --cont-padding: 30px;
+    --cont-padding2: 15px;
+
+}
+
+.change-theme[data-theme="light-book"] {
+    background: var(--color-elements);
+}

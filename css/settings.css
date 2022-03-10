@@ -1,0 +1,262 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--color-bg);
+    height: 100%;
+}
+
+h3 {
+  font-weight: 500;
+}
+.cont_wrap { margin-left: 12px; margin-right: 12px;}
+
+
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+@media screen and (max-width: 720px) {
+  header {
+    padding: 10px 12px;
+
+  }
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 720px) {
+  .header__nav {
+    gap: 10px;
+    transition: .2s;
+  }
+}
+.header__items { display: flex; gap: 15px; }
+
+.ico__home { background-image: var(--ico-home); }
+.ico__back { background-image: var(--ico-back); }
+.ico__setting { background-image: var(--ico-settings); }
+
+
+
+/* --------*/
+
+
+
+
+/* --------*/
+
+#wrap {
+  display: grid;
+  align-items: start;
+  grid-template-columns: 300px 1fr;
+  gap: 20px;
+  padding: 20px;
+  min-height: 100vh;
+  margin-bottom: 30vh;
+}
+/* --------*/
+@media screen and (max-width: 720px) {
+  #wrap {
+    grid-template-columns: 1fr;
+    padding: 12px;
+  }
+}
+
+
+
+/* --------*/
+.akk__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin: 30px 20px;
+}
+@media screen and (max-width: 720px) { .akk__box { display: none; } }
+
+.user__name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user__name h1{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.akk_ico {
+    display: block;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-image: url(../ico/akk.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 2px solid var(--color-box);
+    background-size: 100%;
+}
+.galochka { background-image: url(../ico/ico_galochka.svg); }
+.ico__new { background-image: url(../ico/ico_new.svg); }
+
+.ico__prog { background-image: url(../ico/ico_prog.svg); }
+.ico__workout { background-image: url(../ico/ico_workout.svg); }
+.ico__exercises { background-image: url(../ico/ico_exercises.svg); }
+
+
+
+/* Общая коробка */
+.box__theme {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: var(--radius);
+  background: var(--color-item2);
+  box-shadow: var(--shad);
+}
+.box__theme P{
+  color: #757575;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.item__page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 150px;
+  height: 150px;
+  border: 1px dashed #2d2d31;
+  background: var(--color-box);
+  border-radius: var(--radius);
+}
+
+.theme {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.theme h3{
+  font-size: 15px;
+  padding: 8px 14px;
+  /* background: var(--color-box); */
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.change-theme {
+  border: 1px solid var(--color-border);
+  font-size: 15px;
+  font-weight: 400;
+}
+.change-theme:hover {
+  border: 1px solid var(--color-elements);
+  transition: .2s;
+}
+
+
+
+/*---MENU---*/
+
+.cont__left {
+  margin-top: 30px;
+  transition: 0.2s;
+}
+@media screen and (min-width: 720px) {
+  .cont__left {
+    position: sticky;
+    top: 20px;
+    margin-top: 0px;
+    transition: 0.2s;
+  }
+}
+
+.menu__box {
+  background: var(--color-box);
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: var(--shad);
+}
+
+.menu__tren {
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+
+
+.item__menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  opacity: 50%;
+  color: #F2F2F2;
+  border-radius: var(--radius);
+  padding: .5em;
+  transition: 0.2s;
+}
+.item__menu:hover {
+  opacity: 100%;
+  background: var(--color-item);
+  padding-left: .8em;
+  transition: 0.2s;
+}
+
+.item__menu_active {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: var(--radius);
+  padding: .5em;
+  /* margin-left: -.8em; */
+}
+.el {
+  background: var(--color-elements);
+  border-radius: 2px;
+  height: 20px;
+  width: 3px;
+}
+.el {
+  animation-duration: .5s;
+  animation-name: el_an_ac;
+  transition-timing-function: ease-in-out;
+}
+
+@keyframes el_an_ac {
+  0% { height: 0px; }
+  100% { }
+}
+/* ---------- */
+
+
+.content {
+  min-height: 80vh;
+  border-radius: 15px;
+}
+@media screen and (min-width: 720px) {
+  .content {
+    border-left: 1px dashed var(--color-border);
+    border-right: 1px dashed var(--color-border);
+    padding: 20px;
+  }
+}
+
+.box__account {
+  /* margin: 4px; */
+  margin-bottom: 60px;
+}
+.box__account p{
+  color: #757575;
+  font-size: 15px;
+}
+
+

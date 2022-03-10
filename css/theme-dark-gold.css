@@ -1,0 +1,45 @@
+:root {
+
+    --color-bg: #111111;
+    --color-txt: #F2F2F2;
+    --color-box: #1F1F20;
+
+    --color-item: #19191a;
+    --color-item2: #181818;
+
+    --color-elements: #e77d04;
+    --color-border: #2d2d31;
+    /* --color-elements: #3282CD; */
+    /* ICO */
+    --ico-back: url(../ico/ico_back.svg);
+    --ico-home: url(../ico/ico_home.svg);
+    --ico-settings: url(../ico/ico_settings.svg);
+    --ico-search: url(../ico/ico_search.svg);
+    --ico-dop: url(../ico/ico_dop.svg);
+    --ico-new: url(../ico/ico_new.svg);
+    --ico-prog: url(../ico/ico_prog.svg);
+    --ico-workout: url(../ico/ico_workout.svg);
+    --ico-exercises: url(../ico/ico_exercises.svg);
+
+    --fil-prog: url(../img/fil-prog-up.webp);
+
+    --ico-lock: url(../ico/ico_lock.svg);
+
+    --radius: 15px;
+
+    --shad: 0;
+
+    --cont-padding: 30px;
+    --cont-padding2: 15px;
+
+}
+
+.change-theme[data-theme="dark-gold"] {
+    background: var(--color-elements);
+    border: 1px solid var(--color-elements);
+}
+
+/* a {
+    color: #F2930C;
+    text-decoration: underline;
+} */
