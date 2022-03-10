@@ -39,8 +39,6 @@ header {
 .ico__home { background-image: var(--ico-home); }
 .ico__back { background-image: var(--ico-back); }
 
-.ico__breadcrumb{ background-image: url(../ico/ico_breadcrumb.svg); }
-
 .ico__temp { background-image: url(../ico/temp1.svg); }
 .ico__temp2 { background-image: url(../ico/temp2.svg); }
 .ico__temp3 { background-image: url(../ico/temp3.svg); }
@@ -49,49 +47,9 @@ header {
 
 
 /* --------*/
-.box__breadcrumb {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 30px;
-}
-@media screen and (max-width: 720px) {
-  .box__breadcrumb {
-    display: none;
-  }
-}
-.items__breadcrumb {
-  display: flex;
-  align-items: center;
-}
-ul.breadcrumb {
-  /* margin: 10px 0px; */
-  padding: 8px 0;
-  list-style: none;
-  
-}
-ul.breadcrumb li a {
-  color: #7f7f7f;
-  text-decoration: none;
-}
-ul.breadcrumb li a:hover {
-  color: var(--color-elements);
-  text-decoration: underline;
-  transition: .2s;
-}
-ul.breadcrumb li {
-  display: inline;
-  font-size: 14px;
-  font-weight: 400;
-  color: #3A3A3A;
-}
 
-ul.breadcrumb li+li:before {
-  padding: 0 6px;
-  font-size: 15px;
-  color: #3A3A3A;
-  content: "»\00a0";
-}
+
+
 
 /* --------*/
 
@@ -189,7 +147,7 @@ ul.breadcrumb li+li:before {
 }
 
 .box__1 {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   padding: 20px;
   border-radius: var(--radius);
   background: var(--color-item2);
@@ -208,24 +166,6 @@ ul.breadcrumb li+li:before {
 .box__1 h3{
   font-weight: 600;
 }
-
-.day__tren {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 15px;
-}
-@media screen and (min-width: 900px) {
-  .day__tren {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .day__tren {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-
 .box__2{
   padding: 20px;
   margin-bottom: 30px;
@@ -261,18 +201,15 @@ ul.breadcrumb li+li:before {
   display: flex;
   align-items: center;
   gap: 15px;
-  width: 100%;
 }
 .pod__numder { width: 10px; }
 .item__pod {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 20px;
   background: var(--color-box);
   padding: .6em 1.5em;
   border-radius: 10px;
-  width: 100%;
 }
 
 .el3 {
