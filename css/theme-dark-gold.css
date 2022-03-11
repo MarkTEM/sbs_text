@@ -8,7 +8,7 @@
     --color-item2: #181818;
 
     --color-elements: #e77d04;
-    --color-border: #2d2d31;
+    --color-border: #404040;
     /* --color-elements: #3282CD; */
     /* ICO */
     --ico-back: url(../ico/ico_back.svg);
@@ -24,10 +24,11 @@
     --fil-prog: url(../img/fil-prog-up.webp);
 
     --ico-lock: url(../ico/ico_lock.svg);
+    --ico-hint: url(../ico/ico_hint.svg);
 
     --radius: 15px;
 
-    --shad: 0;
+    --shad: none;
 
     --cont-padding: 30px;
     --cont-padding2: 15px;
