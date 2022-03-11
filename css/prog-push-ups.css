@@ -38,6 +38,7 @@ header {
 
 .ico__home { background-image: var(--ico-home); }
 .ico__back { background-image: var(--ico-back); }
+.ico__setting { background-image: var(--ico-settings); }
 
 
 .ico__hint { background-image: var(--ico-hint); }
@@ -153,8 +154,9 @@ header {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   padding: 20px;
+  padding-bottom: 60px;
   border-radius: var(--radius);
-  background: var(--color-item2);
+  background: var(--color-box);
   box-shadow: var(--shad);
 }
 @media screen and (max-width: 720px) {
@@ -351,7 +353,13 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border-radius: 15px 15px 0 0;
+  border-radius: 15px;
+}
+@media screen and (max-width: 830px) {
+  .prew__prog1 {
+    margin: -10px;
+    border-radius: 15px 15px 0 0;
+  }
 }
 
 .program__title {
@@ -360,9 +368,9 @@ header {
 .program__title h1 { margin-bottom: 15px;}
 
 .box_title_prog {
-  padding: 10px;
+  /* padding: 10px; */
   /* background: var(--color-box); */
-  background-image: var(--fil-prog);
+  /* background-image: var(--fil-prog); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

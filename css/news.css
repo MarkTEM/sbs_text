@@ -39,6 +39,7 @@ header {
 .ico__search { background-image: url(../ico/ico_search.svg); }
 .ico__home { background-image: var(--ico-home); }
 .ico__back { background-image: var(--ico-back); }
+.ico__setting { background-image: var(--ico-settings); }
 
 .ico__lock { background-image: var(--ico-lock); }
 
@@ -77,8 +78,9 @@ header {
   align-items: center;
   gap: 15px;
   border-radius: 24px;
-  background: var(--color-item);
+  background: var(--color-box);
   padding: 4px 4px;
+  box-shadow: var(--shad);
 }
 @media screen and (max-width: 720px) { .akk__box { display: none; } }
 
@@ -86,6 +88,12 @@ header {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+.user__name h3{
+  color: var(--color-txt);
+  font-size: 14px;
+  font-weight: 500;
+  padding-right: 15px;
 }
 
 .akk_ico {
@@ -98,7 +106,6 @@ header {
     background-position: center center;
     background-size: 100%;
 }
-.galochka { background-image: url(../ico/ico_galochka.svg); }
 .ico__new { background-image: var(--ico-new); }
 
 .ico__prog { background-image: var(--ico-prog); }
@@ -164,7 +171,7 @@ header {
 }
 .item__menu:hover {
   opacity: 100%;
-  background: var(--color-item);
+  background: var(--color-item2);
   padding-left: .8em;
   transition: 0.2s;
 }
@@ -199,12 +206,14 @@ header {
 .content {
   /* min-height: 100vh; */
   border-radius: 15px;
+  
 }
-@media screen and (min-width: 720px) {
+@media screen and (max-width: 720px) {
   .content {
     /* border-left: 1px dashed var(--color-border); */
     /* border-right: 1px dashed var(--color-border); */
     /* padding: 20px; */
+    margin-top: 60px;
   }
 }
 
@@ -212,12 +221,12 @@ header {
   margin-bottom: 20px;
   padding: 20px;
   border-radius: var(--radius);
-  background: var(--color-item2);
+  background: var(--color-box);
   box-shadow: var(--shad);
 }
 @media screen and (max-width: 720px) {
   .box__1 {
-    padding: 20px 10px;
+    padding: 0px 10px;
   }
 }
 .box__1 p{
@@ -225,6 +234,28 @@ header {
   font-size: 15px;
   margin: 20px 0;
 }
+
+
+.title, .title2 {
+  color: #F2F2F2;
+  background: var(--color-item);
+  padding: 15px;
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+@media screen and (max-width: 720px) {
+  .title, .title2 {
+    padding: 15px;
+    margin: -10px;
+  }
+}
+.title { border-radius: 15px 15px 0 0;}
+.title2 { margin-top: 60px;}
+
+
 
 .live__cont {
   border-bottom: 1px solid #252527;
