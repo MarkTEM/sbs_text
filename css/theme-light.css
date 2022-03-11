@@ -16,7 +16,7 @@
     --ico-home: url(../ico/ico_home_dark.svg);
     --ico-settings: url(../ico/ico_settings_dark.svg);
     --ico-search: url(../ico/ico_search_dark.svg);
-    --ico-dop: url(../ico/ico_dop_dark.svg);
+    --ico-dop: url(../ico/ico_dop.svg);
     --ico-new: url(../ico/ico_new_dark.svg);
     --ico-prog: url(../ico/ico_prog_dark.svg);
     --ico-workout: url(../ico/ico_workout_dark.svg);
@@ -37,7 +37,7 @@
 }
 
 h1 { font-weight: 700; }
-h3 { font-size: 1em; color: var(--color-txt); font-weight: 600; }
+h3 { font-size: 1em; color: var(--color-txt); font-weight: 500; }
 
 .change-theme[data-theme="light"] {
     background: var(--color-elements);

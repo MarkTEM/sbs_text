@@ -76,15 +76,21 @@ header {
   justify-content: space-between;
   align-items: center;
   gap: 15px;
-  border-radius: var(--radius);
-  background: var(--color-item2);
-  padding: 6px 10px;
+  border-radius: 15px 15px 0 0;
+  background: var(--color-item);
+  padding: 8px 15px;
+  margin: -10px;
 }
 
 .user__name {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.user__name h3{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
 }
 .akk_ico {
     display: block;
@@ -95,6 +101,7 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
+    /* border: 1px solid var(--color-border); */
 }
 .galochka { background-image: url(../ico/ico_galochka.svg); }
 .ico__dop { background-image: var(--ico-dop); }
@@ -166,7 +173,7 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
-  opacity: 50%;
+  opacity: 70%;
   color: #F2F2F2;
   border-radius: var(--radius);
   padding: .5em;
@@ -208,13 +215,6 @@ header {
 .content {
   /* min-height: 100vh; */
   border-radius: 15px;
-}
-@media screen and (min-width: 720px) {
-  .content {
-    border-left: 1px dashed var(--color-border);
-    border-right: 1px dashed var(--color-border);
-    padding: 20px;
-  }
 }
 
 .box__1 {
