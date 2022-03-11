@@ -17,6 +17,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px;
+    background: var(--color-header);
+    box-shadow: 0 2px 7px 0 rgb(0 0 0 / 4%);
 }
 @media screen and (max-width: 720px) {
   header {
@@ -77,14 +79,14 @@ header {
 
 /* --------*/
 .box__account {
-  background: var(--color-item);
+  /* background: var(--color-item); */
   border-radius: var(--radius);
   /* padding: 20px; */
   margin: 30px 0;
 }
 /* @media screen and (max-width: 720px) { .box__account { padding: 15px; } } */
 .box__account h1 {
-  color: var(--color-txt);
+  color: #f2f2f2;
   background: var(--color-item);
   border-radius: 15px 15px 0 0;
   font-weight: 500;
@@ -143,7 +145,7 @@ header {
 @media screen and (max-width: 720px) { .box__theme { padding: 15px; } }
 
 .box__theme h1 {
-  color: var(--color-txt);
+  color: #f2f2f2;
   background: var(--color-item);
   border-radius: 15px 15px 0 0;
   margin: -20px;

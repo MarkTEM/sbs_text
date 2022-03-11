@@ -1,11 +1,12 @@
 :root {
 
-    --color-bg: #fafafa;
+    --color-bg: #F2F2F2;
     --color-txt: #202020;
     --color-box: #FFFFFF;
 
-    --color-item: #f1f1f1;
-    --color-item2: #fff;
+    --color-header: #fff;
+    --color-item: #2E3031;
+    --color-item2: #EFEFEF;
     --color-border: #c2c2c2;
 
     --color-elements: rgb(2, 133, 255);
@@ -24,10 +25,11 @@
     --fil-prog: url(../img/fil-light-p_up.png);
 
     --ico-lock: url(../ico/ico_lock_dark.svg);
+    --ico-hint: url(../ico/ico_hint.svg);
 
     --radius: 15px;
 
-    --shad: 0px 1px 4px rgb(0 0 0 / 10%);
+    --shad: 0px 2px 7px rgb(0 0 0 / 4%);
 
     --cont-padding: 30px;
     --cont-padding2: 15px;
