@@ -88,7 +88,7 @@ h3 { font-size: 1em; color: var(--color-txt); font-weight: 400; }
 }
 
 @keyframes wrap_an {
-  0% { margin-top: 60px; margin-left: 20px; margin-right: 20px;}
+  0% { transform: rotate(-5deg); margin-top: 60px; margin-left: 20px; margin-right: 20px;}
   100% { }
 }
 /* @media screen and (max-width: 720px) {
