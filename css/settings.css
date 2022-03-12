@@ -13,16 +13,17 @@ h3 {
 
 /* HEADER */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 20px;
-    background: var(--color-header);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: var(--color-header);
     box-shadow: 0 2px 7px 0 rgb(0 0 0 / 4%);
 }
 @media screen and (max-width: 720px) {
   header {
-    padding: 10px 12px;
+    padding: 10px 8px;
+    transition: 0.2s;
 
   }
 }
@@ -45,7 +46,24 @@ header {
 
 /* --------*/
 
+/* --------*/
 
+.title {
+  background: var(--color-item);
+  padding: .6em 1em;
+  border-radius: 15px 15px 0 0;
+}
+.title h1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #F2F2F2;
+}
+
+.title2 {
+  margin-bottom: 30px;
+}
+
+/* --------*/
 
 
 /* --------*/
@@ -85,15 +103,6 @@ header {
   margin: 30px 0;
 }
 /* @media screen and (max-width: 720px) { .box__account { padding: 15px; } } */
-.box__account h1 {
-  color: #f2f2f2;
-  background: var(--color-item);
-  border-radius: 15px 15px 0 0;
-  font-weight: 500;
-  padding: 15px 20px;
-  font-size: 14px;
-}
-@media screen and (max-width: 720px) { .box__account h1 { padding: 10px 15px; } }
 .box__account p{
   color: #757575;
   font-size: 15px;
@@ -143,28 +152,18 @@ header {
 /* Общая коробка */
 .box__theme {
   margin-bottom: 30px;
-  padding: 20px;
   border-radius: var(--radius);
   background: var(--color-box);
   box-shadow: var(--shad);
 }
-@media screen and (max-width: 720px) { .box__theme { padding: 15px; } }
 
-.box__theme h1 {
-  color: #f2f2f2;
-  background: var(--color-item);
-  border-radius: 15px 15px 0 0;
-  margin: -20px;
-  margin-bottom: 30px;
-  font-weight: 500;
-  padding: 15px 20px;
-  font-size: 14px;
+.items__theme {
+  padding: 20px;
 }
-@media screen and (max-width: 720px) { .box__theme h1 { padding: 10px 15px; margin: -15px; margin-bottom: 30px;} }
+@media screen and (max-width: 720px) { .items__theme { padding: 15px; } }
 .box__theme P{
   color: #757575;
   font-size: 15px;
-  margin-top: 30px;
 }
 
 .item__page {
@@ -185,12 +184,12 @@ header {
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 10px;
-  margin-top: 15px;
+  margin: 15px 0;
 }
 
 .theme h3{
   font-size: 15px;
-  padding: 8px 14px;
+  padding: .4em 1em;
   /* background: var(--color-box); */
   border-radius: 2em;
   cursor: pointer;
