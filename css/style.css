@@ -67,6 +67,11 @@ header {
     padding: 8px;
   }
 }
+@media screen and (min-width: 1400px) {
+  #wrap {
+    grid-template-columns: 300px 1fr 300px;
+  }
+}
 
 
 
