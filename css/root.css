@@ -82,7 +82,7 @@ h3 { font-size: 1em; color: var(--color-txt); font-weight: 400; }
 
 
 .content {
-  animation-duration: .4s;
+  animation-duration: .5s;
   animation-name: wrap_an;
   transition-timing-function: ease-in-out;
 }
@@ -92,7 +92,13 @@ h3 { font-size: 1em; color: var(--color-txt); font-weight: 400; }
   50% { opacity: 80%; }
   100% { }
 }
-
+@media screen and (max-width: 720px) {
+  @keyframes wrap_an {
+    0% { opacity: 0%; margin-top: 80px; margin-left: 10px; margin-right: 10px;}
+    50% { opacity: 80%; }
+    100% { }
+  }
+}
 .menu__tren {
   animation-duration: .4s;
   animation-name: menu_an;
