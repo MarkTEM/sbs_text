@@ -11,16 +11,18 @@ body {
 
 /* HEADER */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background: var(--color-header);
+  box-shadow: 0 2px 7px 0 rgb(0 0 0 / 4%);
 }
 @media screen and (max-width: 720px) {
-  header {
-    padding: 10px 12px;
+header {
+  padding: 10px 12px;
 
-  }
+}
 }
 
 .header__nav {
@@ -89,8 +91,9 @@ header {
   align-items: center;
   gap: 15px;
   border-radius: 24px;
-  background: var(--color-item);
+  background: var(--color-box);
   padding: 4px 4px;
+  box-shadow: var(--shad);
 }
 @media screen and (max-width: 720px) { .akk__box { display: none; } }
 
@@ -98,6 +101,12 @@ header {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+.user__name h3{
+  color: var(--color-txt);
+  font-size: 14px;
+  font-weight: 500;
+  padding-right: 15px;
 }
 
 .akk_ico {
@@ -110,8 +119,6 @@ header {
     background-position: center center;
     background-size: 100%;
 }
-.galochka { background-image: url(../ico/ico_galochka.svg); }
-
 
 
 /* Общая коробка */
@@ -193,7 +200,7 @@ header {
 /* ------------ */
 
 .box__upr {
-  background: var(--color-item);
+  background: var(--color-box);
   padding: 20px;
   border-radius: var(--radius);
 }
@@ -236,7 +243,7 @@ header {
 
 
 .live__cont {
-  border-bottom: 1px solid #252527;
+  border-bottom: 1px solid var(--color-border);
   width: 100%;
   margin: 60px auto;
 }
@@ -270,7 +277,7 @@ header {
   padding: 20px;
   margin-bottom: 30px;
   border-radius: var(--radius);
-  background: var(--color-item2);
+  background: var(--color-box);
   box-shadow: var(--shad);
 }
 @media screen and (max-width: 720px) {
@@ -340,7 +347,7 @@ header {
   /* min-height: 50%; */
   border-radius: 20px;
   background: var(--color-box);
-  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2));
+  /* filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2)); */
 }
 @media screen and (max-width: 830px) {
   .program__up {
@@ -358,6 +365,7 @@ header {
 @media screen and (max-width: 830px) {
   .prew__prog1 {
     margin: -10px;
+    padding-top: 60%;
     border-radius: 15px 15px 0 0;
   }
 }

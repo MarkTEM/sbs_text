@@ -11,16 +11,18 @@ body {
 
 /* HEADER */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background: var(--color-header);
+  box-shadow: 0 2px 7px 0 rgb(0 0 0 / 4%);
 }
 @media screen and (max-width: 720px) {
-  header {
-    padding: 10px 12px;
+header {
+  padding: 10px 12px;
 
-  }
+}
 }
 
 .header__nav {
@@ -36,7 +38,6 @@ header {
 }
 .header__items { display: flex; gap: 15px; }
 
-.ico__search { background-image: url(../ico/ico_search.svg); }
 .ico__home { background-image: var(--ico-home); }
 .ico__back { background-image: var(--ico-back); }
 .ico__setting { background-image: var(--ico-settings); }
