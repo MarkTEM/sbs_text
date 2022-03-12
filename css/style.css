@@ -156,6 +156,7 @@ header {
 }
 
 .menu__box {
+  position: relative;
   background: var(--color-box);
   padding: 10px;
   border-radius: 15px;
@@ -168,7 +169,7 @@ header {
 }
 
 @keyframes menu_an2 {
-  0% {  margin-top: -30px; margin-left: 15px; margin-right: 15px;}
+  0% { transform: rotate(4deg); margin-top: -30px; margin-left: 15px; margin-right: 15px;}
   100% { }
 }
 .menu__tren {

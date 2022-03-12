@@ -82,22 +82,21 @@ h3 { font-size: 1em; color: var(--color-txt); font-weight: 400; }
 
 
 .content {
-  animation-duration: .5s;
+  animation-duration: .4s;
   animation-name: wrap_an;
   transition-timing-function: ease-in-out;
 }
 
 @keyframes wrap_an {
-  0% { opacity: 100%; margin-top: 100px; margin-left: 30px; margin-right: 30px;}
+  0% { margin-top: 60px; margin-left: 20px; margin-right: 20px;}
   100% { }
 }
-@media screen and (max-width: 720px) {
+/* @media screen and (max-width: 720px) {
   @keyframes wrap_an {
-    0% { opacity: 0%; margin-top: 80px; margin-left: 10px; margin-right: 10px;}
-    50% { opacity: 80%; }
+    0% { margin-top: 80px; margin-left: 10px; margin-right: 10px;}
     100% { }
   }
-}
+} */
 .menu__tren {
   animation-duration: .4s;
   animation-name: menu_an;
