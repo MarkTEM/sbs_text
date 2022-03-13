@@ -62,6 +62,7 @@ header {
   padding: 20px;
   min-height: 100vh;
   margin-bottom: 30vh;
+  margin-top: 20px;
 }
 /* --------*/
 @media screen and (max-width: 720px) {
@@ -135,10 +136,10 @@ header {
 
 /*---MENU---*/
 
-.cont__left {
+/* .cont__left {
   margin-top: 30px;
   transition: 0.2s;
-}
+} */
 @media screen and (min-width: 720px) {
   .cont__left {
     position: sticky;
@@ -206,12 +207,16 @@ header {
 
 
 .content {
-  /* min-height: 100vh; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: start;
+  gap: 15px;
   border-radius: 15px;
   
 }
 @media screen and (max-width: 720px) {
   .content {
+    grid-template-columns: 1fr;
     /* border-left: 1px dashed var(--color-border); */
     /* border-right: 1px dashed var(--color-border); */
     /* padding: 20px; */
@@ -220,42 +225,40 @@ header {
 }
 
 .box__1 {
+  min-width:40%;
   margin-bottom: 20px;
-  padding: 20px;
   border-radius: var(--radius);
   background: var(--color-box);
   box-shadow: var(--shad);
 }
-@media screen and (max-width: 720px) {
-  .box__1 {
-    padding: 0px 10px;
-  }
-}
+
 .box__1 p{
   color: #757575;
   font-size: 15px;
-  margin: 20px 0;
 }
 
-
-.title, .title2 {
-  color: #F2F2F2;
-  background: var(--color-item);
-  padding: 15px;
-  margin-top: -20px;
-  margin-left: -20px;
-  margin-right: -20px;
-  margin-bottom: 20px;
-  font-size: 15px;
+.wrap__items {
+  padding: 20px;
 }
 @media screen and (max-width: 720px) {
-  .title, .title2 {
+  .wrap__items {
     padding: 15px;
-    margin: -10px;
   }
 }
-.title { border-radius: 15px 15px 0 0;}
-.title2 { margin-top: 60px;}
+/* --------*/
+
+.title {
+  background: var(--color-item);
+  padding: .6em 1em;
+  border-radius: 15px 15px 0 0;
+}
+.title h1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #F2F2F2;
+}
+
+/* --------*/
 
 
 
@@ -271,7 +274,6 @@ header {
   flex-wrap: wrap;
   gap: 30px;
   margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .program__up {

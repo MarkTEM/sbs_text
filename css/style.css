@@ -3,9 +3,9 @@ body {
   background: var(--color-bg);
   height: 100%;
 }
-html {
+/* html {
   background: #2d2d31;
-}
+} */
 
 
 
@@ -61,6 +61,7 @@ header {
   padding: 20px;
   min-height: 100vh;
   margin-bottom: 30vh;
+  margin-top: 20px;
 }
 /* --------*/
 @media screen and (max-width: 720px) {
@@ -142,10 +143,10 @@ header {
 
 /*---MENU---*/
 
-.cont__left {
+/* .cont__left {
   margin-top: 30px;
   transition: 0.2s;
-}
+} */
 @media screen and (min-width: 720px) {
   .cont__left {
     position: sticky;
@@ -169,7 +170,7 @@ header {
 }
 
 @keyframes menu_an2 {
-  0% { transform: rotate(4deg); margin-top: -30px; margin-left: 15px; margin-right: 15px;}
+  0% { transform: rotate(5deg); margin-top: -30px; margin-left: 15px; margin-right: 15px;}
   100% { }
 }
 .menu__tren {
