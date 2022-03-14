@@ -1,39 +1,43 @@
 :root {
 
-    --color-bg: linear-gradient(180deg, #DAF0F4 0%, #D1F0D8 100%);
-    --color-txt: #202020;
-    --color-box: #F8FDFF;
+    --color-bg: #FFFFFF;
+    --color-txt: #232323;
+    --color-box: #FFFFFF;
 
-    --color-item: #F8FDFF;
-    --color-item2: #f8fdff9c;
-    --color-border: #C0E0C8;
+    --color-header: #fff;
+    --color-item: #2E3031;
+    --color-item2: #EFEFEF;
+    --color-border: #c2c2c2;
 
-    --color-elements: #66be7c;
+    --color-elements: #20ABF9;
     /* --color-elements: #3282CD; */
     /* ICO */
     --ico-back: url(../ico/ico_back_dark.svg);
     --ico-home: url(../ico/ico_home_dark.svg);
     --ico-settings: url(../ico/ico_settings_dark.svg);
     --ico-search: url(../ico/ico_search_dark.svg);
-    --ico-dop: url(../ico/ico_dop_dark.svg);
+    --ico-dop: url(../ico/ico_dop.svg);
     --ico-new: url(../ico/ico_new_dark.svg);
     --ico-prog: url(../ico/ico_prog_dark.svg);
     --ico-workout: url(../ico/ico_workout_dark.svg);
     --ico-exercises: url(../ico/ico_exercises_dark.svg);
 
+    --fil-prog: url(../img/fil-light-p_up.png);
+
     --ico-lock: url(../ico/ico_lock_dark.svg);
+    --ico-hint: url(../ico/ico_hint_dark.svg);
 
     --radius: 15px;
 
-    --shad: 0px 1px 4px rgb(0 0 0 / 10%);
+    --shad: 0px 2px 10px rgb(0 0 0 / 12%);
 
     --cont-padding: 30px;
     --cont-padding2: 15px;
 
 }
 
-h1 { font-size: 22px; color: var(--color-txt); font-weight: 700; }
-h3 { font-size: 1em; color: var(--color-txt); font-weight: 600; }
+h1 { font-weight: 700; }
+h3 { font-size: 1em; color: var(--color-txt); font-weight: 500; }
 
 .change-theme[data-theme="light-spring"] {
     background: var(--color-elements);

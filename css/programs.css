@@ -148,6 +148,7 @@ header {
     transition: 0.2s;
   }
 }
+@media screen and (max-width: 720px) { .cont__left { display: none; } }
 
 .menu__box {
   background: var(--color-box);
@@ -220,7 +221,7 @@ header {
     /* border-left: 1px dashed var(--color-border); */
     /* border-right: 1px dashed var(--color-border); */
     /* padding: 20px; */
-    margin-top: 60px;
+    margin-top: 0px;
   }
 }
 
