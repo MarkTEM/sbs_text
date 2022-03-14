@@ -163,7 +163,7 @@ header {
   border-radius: 15px;
   box-shadow: var(--shad);
 }
-.menu__box {
+/* .menu__box {
   animation-duration: .4s;
   animation-name: menu_an2;
   transition-timing-function: ease-in-out;
@@ -172,7 +172,7 @@ header {
 @keyframes menu_an2 {
   0% { transform: rotate(5deg); margin-top: -30px; margin-left: 15px; margin-right: 15px;}
   100% { }
-}
+} */
 .menu__tren {
   border-radius: 15px;
   margin-top: 15px;
@@ -214,20 +214,22 @@ header {
   padding: .5em;
 }
 .el {
+  position: relative;
   background: var(--color-elements);
   border-radius: 2px;
   height: 20px;
   width: 3px;
 }
 .el {
-  animation-duration: .5s;
+  animation-duration: .3s;
   animation-name: el_an_ac;
   transition-timing-function: ease-in-out;
 }
 
 @keyframes el_an_ac {
-  0% { height: 0px; }
-  100% { }
+  0% { left: 10px; height: 0px; }
+  50% { height: 2px; }
+  100% { left: 0px; }
 }
 /* ---------- */
 
@@ -249,3 +251,4 @@ header {
   font-size: 15px;
   margin: 20px 0;
 }
+

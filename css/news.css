@@ -240,10 +240,9 @@ header {
   border-radius: 2px;
   height: 20px;
   width: 3px;
-  overflow: hidden;
 }
 .el {
-  animation-duration: .4s;
+  animation-duration: .3s;
   animation-name: el_an_ac;
   transition-timing-function: ease-in-out;
 }
