@@ -25,6 +25,7 @@ header {
 
   }
 }
+@media screen and (max-width: 720px) { header h1 { display: none; } }
 
 .header__nav {
   display: flex;
@@ -68,10 +69,15 @@ header {
 @media screen and (max-width: 720px) {
   #wrap {
     grid-template-columns: 1fr;
+    grid-template-rows: 0fr;
     padding: 8px;
   }
 }
-
+@media screen and (min-width: 1400px) {
+  #wrap {
+    grid-template-columns: 300px 1fr 300px;
+  }
+}
 
 
 /* --------*/
@@ -208,8 +214,8 @@ header {
 
 
 .content {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 2fr; */
   align-items: start;
   gap: 15px;
   border-radius: 15px;
@@ -225,12 +231,17 @@ header {
   }
 }
 
+.title__page { margin-bottom: 30px; }
+.title__page h1 { font-size: 30px; font-weight: 700; }
+@media screen and (max-width: 720px) { .title__page h1 { font-size: 22px; font-weight: 700;} }
+.title__page p { font-size: 15px; font-weight: 500; color: #757575; margin-top: 4px;}
+
 .box__1 {
   min-width:40%;
   margin-bottom: 20px;
   border-radius: var(--radius);
-  background: var(--color-box);
-  box-shadow: var(--shad);
+  /* background: var(--color-box); */
+  /* box-shadow: var(--shad); */
 }
 
 .box__1 p{
@@ -261,15 +272,6 @@ header {
 
 /* --------*/
 
-
-
-.live__cont {
-  border-bottom: 1px solid #252527;
-  width: 100%;
-  margin: 60px auto;
-}
-@media screen and (max-width: 720px) { .live__cont { margin: 30px auto; } }
-
 .box_programs2 {
   display: flex;
   flex-wrap: wrap;
@@ -278,11 +280,11 @@ header {
 }
 
 .program__up {
-  width: 400px;
+  width: 350px;
   /* min-height: 50%; */
   border-radius: 20px;
   background: var(--color-box);
-  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2));
+  /* filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2)); */
 }
 @media screen and (max-width: 830px) {
   .program__up {
@@ -290,7 +292,7 @@ header {
   }
 }
 .prew__prog1, .prew__prog2 {
-  padding-top: 50%;
+  padding-top: 40%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -319,14 +321,20 @@ header {
 }
 .box_title_prog h1 { font-size: 18px; color: #F2F2F2; }
 
-.box_title_prog li { font-size: 15px; color: #8b8b8b; margin: 20px 0; }
+.box_title_prog li { font-size: 15px; color: #8b8b8b; margin-top: 10px; }
 
 .btn__go {
   font-size: 15px;
   font-weight: 500;
   padding: .6em 1.6em;
   border: 0px;
-  border-radius: 10px;
+  border-radius: 2em;
+  color: var(--color-elements);
+  border: 1px solid var(--color-elements);
+}
+.btn__go:hover {
   color: #F2F2F2;
   background: var(--color-elements);
+  border: 1px solid var(--color-elements);
+  transition: .2s;
 }
