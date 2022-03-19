@@ -69,7 +69,8 @@ header {
   #wrap {
     grid-template-columns: 1fr;
     grid-template-rows: 0fr;
-    padding: 8px;
+    padding: 0px;
+    margin-top: 40px;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -218,6 +219,8 @@ header {
   align-items: start;
   gap: 15px;
   border-radius: 15px;
+  background: var(--color-box);
+  box-shadow: var(--shad);
   
 }
 @media screen and (max-width: 720px) {
@@ -226,7 +229,14 @@ header {
     /* border-left: 1px dashed var(--color-border); */
     /* border-right: 1px dashed var(--color-border); */
     /* padding: 20px; */
-    margin-top: 0px;
+    padding: 15px;
+  }
+}
+@media screen and (min-width: 720px) {
+  .content {
+    /* background: var(--color-box); */
+    /* box-shadow: var(--shad); */
+    padding: 20px;
   }
 }
 
@@ -281,9 +291,10 @@ header {
 .program__up {
   width: 350px;
   /* min-height: 50%; */
-  border-radius: 20px;
+  /* border-radius: var(--radius); */
   background: var(--color-box);
   /* filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2)); */
+  /* border-bottom: 1px solid var(--color-border); */
 }
 @media screen and (max-width: 830px) {
   .program__up {
@@ -291,20 +302,21 @@ header {
   }
 }
 .prew__prog1, .prew__prog2 {
-  padding-top: 40%;
+  padding-top: 50%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border-radius: 15px 15px 0 0;
+  border-radius: 15px;
 }
 .prew__prog1 { background-image: url(../img/prog-up.webp); }
 .prew__prog2 { background-image: url(../img/fil-prog-none.png); }
 
 
 .box_title_prog {
-  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 40px;
   /* background: var(--color-box); */
-  background-image: var(--fil-prog);
+  /* background-image: var(--fil-prog); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -318,7 +330,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-.box_title_prog h1 { font-size: 18px; color: #F2F2F2; }
+.box_title_prog h1 { font-size: 18px; color: var(--color-txt) }
 
 .box_title_prog li { font-size: 15px; color: #8b8b8b; margin-top: 10px; }
 
