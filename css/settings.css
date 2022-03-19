@@ -23,7 +23,7 @@ header {
 @media screen and (max-width: 720px) {
   header {
     padding: 10px 8px;
-    transition: 0.2s;
+    transition: padding .2s linear;
 
   }
 }
@@ -78,7 +78,7 @@ header {
   margin-bottom: 30vh;
   max-width: 900px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 /* --------*/
 @media screen and (max-width: 720px) {

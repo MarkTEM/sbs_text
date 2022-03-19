@@ -37,7 +37,7 @@
 }
 
 h1 { font-weight: 700; }
-h3 { font-size: 1em; color: var(--color-txt); font-weight: 500; }
+h3 { font-weight: 500; }
 
 .change-theme[data-theme="light"] {
     background: var(--color-elements);
