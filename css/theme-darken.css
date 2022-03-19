@@ -1,13 +1,14 @@
 :root {
 
-    --color-bg: #000000;
-    --color-txt: #F2F2F2;
-    --color-box: #1e1e20;
+    --color-bg: #0D0D0D;
+    --color-txt: #e2e2e2;
+    --color-box: #1D1D1E;
 
-    --color-item: #0F0F10;
+    --color-header: #1b1b1d00;
+    --color-item: #1B1B1D;
     --color-item2: #181818;
 
-    --color-elements: #5663d8;
+    --color-elements: #5480F1;
     --color-border: #222224;
     /* --color-elements: #3282CD; */
     /* ICO */
@@ -24,6 +25,7 @@
     --fil-prog: url(../img/fil-prog-up.webp);
 
     --ico-lock: url(../ico/ico_lock.svg);
+    --ico-hint: url(../ico/ico_hint.svg);
 
     --radius: 15px;
 
@@ -33,6 +35,10 @@
     --cont-padding2: 15px;
 
 }
+
+h1 { font-size: 22px; color: var(--color-txt); font-weight: 500; transition: .2s; }
+@media screen and (max-width: 720px) { h1 { font-size: 18px; transition: .2s;} }
+h3 { font-size: 15px; color: var(--color-txt); font-weight: 400; }
 
 .change-theme[data-theme="darken"] {
     background: var(--color-elements);

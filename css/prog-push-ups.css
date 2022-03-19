@@ -55,21 +55,6 @@ header {
 
 /* --------*/
 
-.title {
-  background: var(--color-item);
-  padding: .6em 1em;
-  border-radius: 15px 15px 0 0;
-}
-.title h1 {
-  font-size: 14px;
-  font-weight: 500;
-  color: #F2F2F2;
-}
-
-.title2 {
-  margin-bottom: 30px;
-}
-
 /* --------*/
 
 #wrap {
@@ -82,7 +67,7 @@ header {
   margin-bottom: 30vh;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 /* --------*/
 @media screen and (max-width: 720px) {
@@ -94,7 +79,7 @@ header {
 @media screen and (min-width: 1600px) {
   #wrap {
     grid-template-columns: 1fr;
-    max-width: 70%;
+    max-width: 1200px;
   }
 }
 
@@ -175,25 +160,21 @@ header {
 .box__1 {
   display: grid;
   align-items: start;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  padding: 20px;
+  grid-template-columns: 1fr 1.5fr;
+  grid-gap: 30px;
   padding-bottom: 60px;
-  border-radius: var(--radius);
-  background: var(--color-box);
-  box-shadow: var(--shad);
 }
 @media screen and (max-width: 720px) {
   .box__1 {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    padding: 10px;
   }
 }
 .box__1 p{
   color: #757575;
   font-size: 15px;
-  margin: 20px 0;
+  margin-bottom: 20px;
+  text-align: justify;
 }
 .box__1 h3{
   font-weight: 600;
@@ -218,25 +199,34 @@ header {
 }
 /* ------------ */
 
-.box__upr {
-  background: var(--color-box);
-  border-radius: var(--radius);
-}
 @media screen and (min-width: 900px) {
   .box__upr {
     position: sticky;
     top: 20px;
   }
 }
+.box__upr h2 {
+  color: var(--color-txt);
+  padding: 15px 0;
+}
 
+.el {
+  width: 3px;
+  height: 26px;
+  border-radius: 4px;
+  background-color: var(--color-elements);
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
 .items__upr {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
-  padding: 20px;
 }
-@media screen and (max-width: 720px) { .items__upr { padding: 15px; } }
 
 .item__upr {
   width: 100%;
@@ -247,13 +237,12 @@ header {
   background-position: center;
   background-size: cover;
 }
-.items__upr h2 {
-  margin-bottom: 20px;
-  color: var(--color-txt);
-}
+
 .items__upr p {
   color: #757575;
   margin: 15px 0;
+  font-size: 15px;
+  text-align: justify;
 }
 
 
@@ -269,7 +258,7 @@ header {
   display: grid;
   align-items: start;
   grid-template-columns: 1fr;
-  grid-gap: 20px;
+  grid-gap: 30px;
   min-height: 100vh;
 }
 @media screen and (min-width: 900px) {
@@ -288,29 +277,27 @@ header {
 }
 
 
-.box__2{
-  margin-bottom: 30px;
+.box__2 {
+  margin-bottom: 60px;
   border-radius: var(--radius);
-  background: var(--color-box);
-  box-shadow: var(--shad);
 }
 
-.box__2 p{
+.box__2 h2 {
+  font-size: 15px;
+  font-weight: 500;
+  /* color: var(--color-elements); */
+}
+.box__2 p {
   color: #757575;
   font-size: 15px;
-  margin: 20px 15px;
+  padding: 15px 0
 }
 
 .box__pod {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  padding: 20px;
-}
-@media screen and (max-width: 720px) {
-  .box__pod {
-    padding: 15px;
-  }
+  margin-top: 20px;
 }
 
 .items__pod {
@@ -319,9 +306,10 @@ header {
   gap: 15px;
   width: 100%;
   /* box-shadow: var(--shad); */
-  border: 1px solid var(--color-border);
-  border-radius: 10px;
-  padding: 0px 15px;
+  background: var(--color-box);
+  box-shadow: var(--shad);
+  border-radius: 12px;
+  padding: 4px 20px;
 }
 .pod__numder { width: 10px; }
 .item__pod {
@@ -330,7 +318,7 @@ header {
   align-items: center;
   gap: 20px;
   border-left: 1px solid var(--color-border);
-  padding: .4em 1em;
+  padding: .6em 1em;
   width: 100%;
 }
 
@@ -365,24 +353,14 @@ header {
   }
 }
 .prew__prog1 {
-  padding-top: 50%;
+  padding-top: 60%;
   background-image: url(../img/prog-up.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 15px;
 }
-@media screen and (max-width: 830px) {
-  .prew__prog1 {
-    margin: -10px;
-    padding-top: 60%;
-    border-radius: 15px 15px 0 0;
-  }
-}
 
-.program__title {
- margin-top: 15px;
-}
 .program__title h1 { margin-bottom: 15px;}
 
 .box_title_prog {
