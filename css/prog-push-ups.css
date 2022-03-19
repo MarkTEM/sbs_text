@@ -163,6 +163,9 @@ header {
   grid-template-columns: 1fr 1.5fr;
   grid-gap: 30px;
   padding-bottom: 60px;
+  background-color: var(--color-box);
+  padding: 15px;
+  border-radius: var(--radius);
 }
 @media screen and (max-width: 720px) {
   .box__1 {
@@ -198,6 +201,11 @@ header {
   font-weight: 500;
 }
 /* ------------ */
+.box__upr {
+  background-color: var(--color-box);
+  padding: 15px;
+  border-radius: var(--radius);
+}
 
 @media screen and (min-width: 900px) {
   .box__upr {
@@ -212,7 +220,7 @@ header {
 
 .el {
   width: 3px;
-  height: 26px;
+  height: 22px;
   border-radius: 4px;
   background-color: var(--color-elements);
 }
@@ -290,7 +298,6 @@ header {
 .box__2 p {
   color: #757575;
   font-size: 15px;
-  padding: 15px 0
 }
 
 .box__pod {
@@ -306,7 +313,7 @@ header {
   gap: 15px;
   width: 100%;
   /* box-shadow: var(--shad); */
-  background: var(--color-box);
+  background: var(--color-item);
   box-shadow: var(--shad);
   border-radius: 12px;
   padding: 4px 20px;
@@ -377,4 +384,20 @@ header {
 .box_title_prog h1 { font-size: 18px; color: #F2F2F2; }
 
 .box_title_prog li { font-size: 15px; color: #8b8b8b; margin: 20px 0; }
+
+
+.cont__pod {
+  background-color: var(--color-box);
+  padding: 15px;
+  border-radius: var(--radius);
+}
+
+hr {
+  color: var(--color-border); /*для IE */
+  background-color:var(--color-border); /*для Firefox, Opera, Safari*/
+  border:0px none;
+  height:1px; /* высота 1px IE, Firefox, Opera, Safari */
+  clear:both; /* для очистки, если тег идет после float елемента */
+  margin-bottom: 60px;
+}
 
