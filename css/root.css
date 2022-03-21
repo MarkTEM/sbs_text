@@ -86,7 +86,7 @@ p { font-size: 15px; }
 .content {
   animation-duration: .3s;
   animation-name: wrap_an;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease-out;
 }
 
 @keyframes wrap_an {
