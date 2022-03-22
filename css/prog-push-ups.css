@@ -63,7 +63,7 @@ header {
   grid-template-columns: 1fr;
   gap: 20px;
   padding: 20px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   margin-bottom: 30vh;
   max-width: 1200px;
   margin: 0 auto;
@@ -73,7 +73,7 @@ header {
 @media screen and (max-width: 720px) {
   #wrap {
     grid-template-columns: 1fr;
-    padding: 12px;
+    padding: 0 8px;
   }
 }
 @media screen and (min-width: 1600px) {
@@ -266,11 +266,13 @@ header {
   align-items: start;
   grid-template-columns: 1fr;
   grid-gap: 30px;
-  min-height: 100vh;
+  /* overflow: hidden; */
+  max-width: 1200px ;
+  margin: 0 auto;
 }
 @media screen and (min-width: 900px) {
   .day__tren {
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1.2fr;
   }
 }
 
@@ -283,8 +285,16 @@ header {
   }
 }
 
+.cont__day {
+  /* background: #2d2d31; */
+  padding-top: 20px;
+  /* margin-bottom: 30px; */
+}
 
 .box__2 {
+  background-color: var(--color-box);
+  box-shadow: var(--shad);
+  padding: 15px;
   border-radius: var(--radius);
 }
 
@@ -313,7 +323,7 @@ header {
   background: var(--color-item2);
   /* box-shadow: var(--shad); */
   border-radius: 12px;
-  padding: 0 20px;
+  padding-left: 20px;
 }
 .pod__numder { width: 10px; }
 .item__pod {
@@ -325,24 +335,6 @@ header {
   padding: .6em 1em;
   width: 100%;
 }
-
-.el3 {
-  padding: 15px;
-  border-radius: 50%;
-  border: 1px solid var(--color-border);
-  background: var(--color-bg);
-}
-@media screen and (max-width: 720px) {
-  .el3 {
-    padding: 12px;
-  }
-}
-.el3:hover {
-  border: 1px solid var(--color-elements);
-  cursor: pointer;
-  transition: .2s;
-}
-
 
 .program__up {
   /* width: 400px; */
@@ -383,13 +375,14 @@ header {
 .box_title_prog li { font-size: 15px; color: #8b8b8b; margin: 20px 0; }
 
 
-.cont__pod {
-  background-color: var(--color-box);
-  box-shadow: var(--shad);
-  padding: 15px;
-  border-radius: var(--radius);
-}
+/* .cont__pod {
+  overflow: scroll;
 
+} */
+.wrap_tren {
+  /* background: #1a1a1b; */
+  padding: 60px 0;
+}
 hr {
   color: var(--color-border); /*для IE */
   background-color:var(--color-border); /*для Firefox, Opera, Safari*/
