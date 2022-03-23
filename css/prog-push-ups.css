@@ -42,6 +42,11 @@ header {
 .ico__home { background-image: var(--ico-home); }
 .ico__back { background-image: var(--ico-back); }
 .ico__setting { background-image: var(--ico-settings); }
+.ico__new { background-image: var(--ico-new); }
+
+.ico__prog { background-image: var(--ico-prog); }
+.ico__workout { background-image: var(--ico-workout); }
+.ico__exercises { background-image: var(--ico-exercises); }
 
 
 .ico__hint { background-image: var(--ico-hint); }
