@@ -8,8 +8,8 @@
     --color-item: #19191a;
     --color-item2: #181818;
 
-    --color-elements: #ee6c01;
-    --color-border: #404040;
+    --color-elements: #ee7301;
+    --color-border: #353535;
     --color-border2: #252525;
     /* --color-elements: #3282CD; */
     /* ICO */
@@ -35,6 +35,8 @@
 
     --cont-padding: 30px;
     --cont-padding2: 15px;
+
+    --bg-menu-bottom: rgba(40, 40, 40, 0.7);
 
 }
 
