@@ -239,9 +239,16 @@ header {
   }
 }
 
-.title__page { margin-bottom: 30px; }
+.title__page {
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 720px) {
+  .title__page {
+    margin-left: 8px;
+}
+}
 .title__page h1 { font-size: 20px; font-weight: 700; }
-@media screen and (max-width: 720px) { .title__page h1 { font-size: 15px; } }
+@media screen and (max-width: 720px) { .title__page h1 { font-size: 16px; } }
 .title__page p { font-size: 15px; color: var(--color-txt-p); margin-top: 10px;}
 
 .box__1 {
@@ -308,8 +315,9 @@ header {
   background-position: center;
   background-size: cover;
   border-radius: 15px 15px 0 0;
+  transition: .2s;
 }
-.prew__prog1 { background-image: url(../img/prog-up.webp); }
+.prew__prog1 { background-image: url(../img/prog-up.webp); background-position: bottom; }
 .prew__prog2 { background-image: url(../img/prog-press.webp); }
 
 @media screen and (max-width: 720px) {
@@ -317,6 +325,14 @@ header {
     padding-top: 70%;
   }
 }
+/* .prew__prog1:active {
+  padding-top: 80%;
+  transition: .2s;
+}
+.prew__prog2:active {
+  padding-top: 80%;
+  transition: .2s;
+} */
 
 .box_title_prog {
   background: var(--color-box);
@@ -354,13 +370,16 @@ header {
 .title__prog {
   position: absolute;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 20px;
   align-items: center;
   backdrop-filter: blur(10px);
   bottom: 0px;
   width: 100%;
   background: rgba(34, 34, 34, 0.6);
   padding: 15px 20px;
+  /* overflow: hidden; */
 }
 
 .line {
