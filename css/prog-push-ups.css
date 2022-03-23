@@ -165,9 +165,9 @@ header {
 .box__1 {
   display: grid;
   align-items: start;
-  grid-template-columns: 1fr 1.5fr;
-  grid-gap: 30px;
-  padding-bottom: 60px;
+  grid-template-columns: 1fr 1fr;
+  /* grid-gap: 30px; */
+  background: var(--color-box);
   border-radius: var(--radius);
 }
 @media screen and (max-width: 720px) {
@@ -177,8 +177,7 @@ header {
   }
 }
 .box__1 p{
-  color: #757575;
-  font-size: 15px;
+  color: var(--color-txt-p);
   margin-bottom: 20px;
   text-align: justify;
 }
@@ -186,6 +185,10 @@ header {
   font-weight: 600;
 }
 
+
+.program__title {
+  padding: 20px;
+}
 
 /* ----Hint---- */
 
@@ -256,14 +259,6 @@ header {
   font-size: 15px;
   text-align: justify;
 }
-
-
-.live__cont {
-  border-bottom: 1px solid var(--color-border);
-  width: 100%;
-  margin: 60px auto;
-}
-@media screen and (max-width: 720px) { .live__cont { margin: 30px auto; } }
 
 
 .day__tren {
@@ -354,12 +349,19 @@ header {
   }
 }
 .prew__prog1 {
-  padding-top: 60%;
+  padding-top: 70%;
   background-image: url(../img/prog-up.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border-radius: 15px;
+  border-radius: 15px 0 0 15px;
+}
+
+@media screen and (max-width: 720px) {
+  .prew__prog1 {
+    padding-top: 50%;
+    border-radius: 15px 15px 0 0;
+  }
 }
 
 .program__title h1 { margin-bottom: 15px;}

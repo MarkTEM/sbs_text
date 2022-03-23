@@ -27,6 +27,7 @@
     --fil-prog: url(../img/fil-prog-up.webp);
 
     --ico-lock: url(../ico/ico_lock.svg);
+    --ico-hint: url(../ico/ico_hint.svg);
 
     --radius: 15px;
     --box-padding: 20px;
@@ -36,7 +37,7 @@
     --cont-padding: 30px;
     --cont-padding2: 15px;
 
-    --bg-menu-bottom: rgba(40, 40, 40, 0.7);
+    --bg-menu-bottom: rgba(40, 40, 40, 0.9);
 
 }
 
