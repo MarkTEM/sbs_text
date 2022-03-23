@@ -2,6 +2,7 @@
 
     --color-bg: #111111;
     --color-txt: #F2F2F2;
+    --color-txt-p: #b1b1b1;
     --color-box: #1F1F20;
 
     --color-item: #19191a;
@@ -28,6 +29,7 @@
     --ico-hint: url(../ico/ico_hint.svg);
 
     --radius: 15px;
+    --box-padding: 20px;
 
     --shad: none;
 
@@ -35,6 +37,8 @@
     --cont-padding2: 15px;
 
 }
+
+p { font-weight: 400; }
 
 .change-theme[data-theme="dark-gold"] {
     background: var(--color-elements);

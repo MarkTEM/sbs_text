@@ -1,15 +1,17 @@
 :root {
 
-    --color-bg: #111111;
+    --color-bg: #141414;
     --color-txt: #F2F2F2;
-    --color-box: #232325;
+    --color-txt-p: #b1b1b1;
+    --color-box: #1f1f1f;
 
-    --color-header: #1B1B1D;
-    --color-item: #1B1B1D;
+    --color-header: #1f1f1f;
+    --color-item: #272727;
     --color-item2: #181818;
 
     --color-elements: #3282CD;
     --color-border: #2d2d31;
+    --color-border2: #2e2e2e;
     /* --color-elements: #3282CD; */
     /* ICO */
     --ico-back: url(../ico/ico_back.svg);
@@ -27,6 +29,7 @@
     --ico-lock: url(../ico/ico_lock.svg);
 
     --radius: 15px;
+    --box-padding: 20px;
 
     --shad: 0;
 
@@ -34,6 +37,10 @@
     --cont-padding2: 15px;
 
 }
+
+h1 { font-weight: 600; }
+h3 { font-weight: 500; }
+p { font-weight: 400; }
 
 .change-theme[data-theme="dark"] {
     background: var(--color-elements);
