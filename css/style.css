@@ -102,16 +102,7 @@ header {
     background-position: center center;
     background-size: 100%;
 }
-.galochka { background-image: url(../ico/ico_galochka.svg); }
-.ico__dop { background-image: var(--ico-dop); }
-.ico__new { background-image: var(--ico-new); }
-.ico__collection { background-image: var(--ico-collection); }
 
-.ico__lock { background-image: var(--ico-lock); }
-
-.ico__prog { background-image: var(--ico-prog); }
-.ico__workout { background-image: var(--ico-workout); }
-.ico__exercises { background-image: var(--ico-exercises); }
 
 
 
