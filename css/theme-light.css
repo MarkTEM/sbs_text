@@ -1,10 +1,9 @@
 :root {
-
     --color-bg: #f1f1f1;
-    --color-txt: #2C2C2E;
+    --color-txt: #353535;
     --color-txt-p: #8d8d8d;
     --color-box: #FFFFFF;
-
+    
     --color-header: #fff;
     --color-item: #2E3031;
     --color-item2: #EFEFEF;
@@ -12,7 +11,7 @@
     --color-border2: #dddddd;
 
     --color-elements: rgb(56, 155, 248);
-    /* --color-elements: #3282CD; */
+    
     /* ICO */
     --ico-back: url(../ico/ico_back_dark.svg);
     --ico-home: url(../ico/ico_home_dark.svg);
@@ -20,6 +19,7 @@
     --ico-search: url(../ico/ico_search_dark.svg);
     --ico-dop: url(../ico/ico_dop.svg);
     --ico-new: url(../ico/ico_new_dark.svg);
+    --ico-collection: url(../ico/ico_collection_dark.svg);
     --ico-prog: url(../ico/ico_prog_dark.svg);
     --ico-workout: url(../ico/ico_workout_dark.svg);
     --ico-exercises: url(../ico/ico_exercises_dark.svg);
@@ -40,13 +40,25 @@
     --bg-menu-bottom: rgb(255 255 255 / 0.9);
 
 }
+/* ------------------------------- */
 
+
+
+
+
+/* ------------------------------- */
 h1 { font-weight: 700; }
 h3 { font-weight: 600; }
 p { font-weight: 400; }
+/* ------------------------------- */
 
+
+
+
+/* ------------------------------- */
 .change-theme[data-theme="light"] {
     background: var(--color-elements);
     border: 1px solid var(--color-elements);
     color: #F2F2F2;
 }
+/* ------------------------------- */

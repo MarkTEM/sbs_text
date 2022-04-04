@@ -105,6 +105,7 @@ header {
 .galochka { background-image: url(../ico/ico_galochka.svg); }
 .ico__dop { background-image: var(--ico-dop); }
 .ico__new { background-image: var(--ico-new); }
+.ico__collection { background-image: var(--ico-collection); }
 
 .ico__lock { background-image: var(--ico-lock); }
 
