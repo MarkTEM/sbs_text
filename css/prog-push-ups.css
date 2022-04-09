@@ -73,18 +73,19 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 /* --------*/
 @media screen and (max-width: 720px) {
   #wrap {
     grid-template-columns: 1fr;
-    padding: 0 8px;
+    padding: 0;
   }
 }
 @media screen and (min-width: 1600px) {
   #wrap {
     grid-template-columns: 1fr;
-    max-width: 1200px;
+    max-width: 1400px;
   }
 }
 
@@ -151,24 +152,27 @@ header {
 
 .content {
   /* min-height: 100vh; */
+  background: var(--color-box);
+  box-shadow: var(--shad);
   border-radius: 15px;
+  padding: 30px 10px;
 }
 @media screen and (min-width: 720px) {
   .content {
     /* border-left: 1px dashed var(--color-border); */
     /* border-right: 1px dashed var(--color-border); */
     /* padding: 20px; */
-    
+    border-radius: 24px;
+    padding: 30px;
+    padding-bottom: 60px;
   }
 }
 
 .box__1 {
   display: grid;
   align-items: start;
-  grid-template-columns: 1fr 1fr;
-  /* grid-gap: 30px; */
-  background: var(--color-box);
-  border-radius: var(--radius);
+  grid-template-columns: 1fr 1.5fr;
+  grid-gap: 20px;
 }
 @media screen and (max-width: 720px) {
   .box__1 {
@@ -186,18 +190,20 @@ header {
 }
 
 
-.program__title {
-  padding: 20px;
-}
+/* .program__title {
+  padding-top: 20px;
+} */
 
 /* ----Hint---- */
 
 .title__hint {
   display: flex;
   align-items: center;
+  width: fit-content;
   gap: 10px;
   border: 1px dashed var(--color-border);
   padding: .4em;
+  padding-right: 1em;
   border-radius: 10px;
   margin: 30px 0;
 }
@@ -207,12 +213,11 @@ header {
   font-weight: 500;
 }
 /* ------------ */
-.box__upr {
+/* .box__upr {
   background-color: var(--color-box);
   box-shadow: var(--shad);
-  padding: 15px;
   border-radius: var(--radius);
-}
+} */
 
 @media screen and (min-width: 900px) {
   .box__upr {
@@ -267,8 +272,12 @@ header {
   grid-template-columns: 1fr;
   grid-gap: 30px;
   /* overflow: hidden; */
-  max-width: 1200px ;
+  /* max-width: 1200px ; */
   margin: 0 auto;
+  background: var(--color-box);
+  border-radius: var(--radius);
+  /* padding: 30px; */
+  /* margin-top: 100px; */
 }
 @media screen and (min-width: 900px) {
   .day__tren {
@@ -287,16 +296,15 @@ header {
 
 .cont__day {
   /* background: #2d2d31; */
-  padding-top: 20px;
+  padding-bottom: 30px;
   /* margin-bottom: 30px; */
 }
 
-.box__2 {
+/* .box__2 {
   background-color: var(--color-box);
   box-shadow: var(--shad);
-  padding: 15px;
   border-radius: var(--radius);
-}
+} */
 
 .box__2 h2 {
   font-size: 15px;
@@ -354,13 +362,12 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border-radius: 15px 0 0 15px;
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 720px) {
   .prew__prog1 {
     padding-top: 50%;
-    border-radius: 15px 15px 0 0;
   }
 }
 
@@ -388,7 +395,8 @@ header {
 } */
 .wrap_tren {
   /* background: #1a1a1b; */
-  padding: 60px 0;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 hr {
   color: var(--color-border); /*для IE */
