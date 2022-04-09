@@ -274,10 +274,6 @@ header {
   /* overflow: hidden; */
   /* max-width: 1200px ; */
   margin: 0 auto;
-  background: var(--color-box);
-  border-radius: var(--radius);
-  /* padding: 30px; */
-  /* margin-top: 100px; */
 }
 @media screen and (min-width: 900px) {
   .day__tren {
