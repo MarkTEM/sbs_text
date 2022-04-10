@@ -3,7 +3,7 @@
     --color-bg: #111111;
     --color-txt: #F2F2F2;
     --color-txt-p: #b1b1b1;
-    --color-box: #1F1F20;
+    --color-box: #1d1d1d;
 
     --color-item: #19191a;
     --color-item2: #181818;
@@ -40,7 +40,9 @@
     --bg-menu-bottom: rgba(40, 40, 40, 0.9);
 
 }
-
+h1 { font-weight: 600; letter-spacing: 0.01em; }
+h2 { font-weight: 600; }
+h3 { font-weight: 400; }
 p { font-weight: 400; }
 
 .change-theme[data-theme="dark-gold"] {
