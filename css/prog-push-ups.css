@@ -156,7 +156,7 @@ header {
   background: var(--color-box);
   box-shadow: var(--shad);
   border-radius: 15px;
-  padding: 30px 12px;
+  padding: 30px 8px;
 }
 @media screen and (min-width: 720px) {
   .content {
@@ -214,13 +214,18 @@ header {
   font-weight: 500;
 }
 /* ------------ */
+.box_items__upr {
+  padding: 10px;
+}
 .box__upr {
-  /* border-left: 1px solid #2d2d311c; */
+  border: 1px solid var(--color-border);
   /* border-right: 1px solid #2d2d311c; */
   /* border-radius: 12px; */
   /* overflow: hidden; */
   /* box-shadow: var(--shad); */
   /* border-radius: var(--radius); */
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 900px) {
@@ -254,6 +259,10 @@ header {
   font-weight: 500;
   color: #F2F2F2;
 }
+/* .title__upr {
+  background: #f7f7f7;
+  padding: 10px;
+} */
 
 .items__upr {
   display: grid;
@@ -315,8 +324,7 @@ header {
   border-radius: var(--radius);
 } */
 .box__2 {
-  border-left: 1px solid #2d2d311c;
-  border-right: 1px solid #2d2d311c;
+  border: 1px solid var(--color-border);
   border-radius: 12px;
   overflow: hidden;
 }
@@ -347,7 +355,7 @@ header {
   /* border-radius: 2em; */
   padding: 10px;
   padding-right: 10px;
-  border-bottom: 1px solid #e7e7e7;
+  border-top: 1px solid var(--color-border);
   /* padding-left: 20px; */
 }
 .pod__numder {
@@ -375,8 +383,24 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 15px;
+  margin: 10px;
 }
+.flex__title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* .ico__time {
+  background-image: url(../ico/ico_time.svg);
+  display: block;
+  height: 1.6em;
+  width: 1.6em;
+  opacity: .5;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1.5em 1.5em;
+} */
 
 
 .program__up {
@@ -448,6 +472,7 @@ hr {
 /* ---------- */
 .muskle {
   border-left: 1px solid #2d2d3152;
+  border-right: 1px solid #2d2d3152;
   padding-left: 10px;
   margin: 15px 0;
 }
@@ -467,7 +492,7 @@ hr {
 
 .tg_m1 {
   border: 1px solid #d35873b6;
-  background: #d3587311;
+  /* background: #d3587311; */
 }
 .tg_m2 {
   border: 1px solid #3c3c3e70;
