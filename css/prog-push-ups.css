@@ -2,9 +2,10 @@ body {
     font-family: 'Inter', sans-serif;
     background: var(--color-bg);
     height: 100%;
-    background-image: url('../img/fon.jpg');
+    /* background-image: url('../img/fon.jpg'); */
     /* background: -webkit-linear-gradient(0deg,#696eff,#f6a9ff); */
     /* background: -webkit-linear-gradient(0deg,#696eff,#f6a9ff); */
+    /* background: radial-gradient(67.87% 108.15% at 50% 50%, #C4DBFF 0%, #ECD9FF 55.21%, #E7E7FE 100%);; */
 }
 
 .cont_wrap { margin-left: 12px; margin-right: 12px;}
@@ -165,7 +166,7 @@ header {
   box-shadow: var(--shad);
   border-radius: 2px;
   /* padding: 30px 8px; */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 @media screen and (min-width: 720px) {
   .content {
@@ -183,12 +184,15 @@ header {
   align-items: start;
   grid-template-columns: 1fr 1.3fr;
   /* grid-gap: 20px; */
-  background: #2d2d31;
+  background: var(--color-item-title);
+  border-radius: 24px 24px 0 0;
+  overflow: hidden;
 }
 @media screen and (max-width: 720px) {
   .box__1 {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    border-radius: 2px;
   }
 }
 .box__1 p{
@@ -266,7 +270,7 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
-  background: #2d2d31;
+  background: var(--color-item-title);
   padding: 8px 10px;
   /* border-radius: 8px; */
   /* border-bottom: 1px solid #2d2d31; */
@@ -373,7 +377,7 @@ header {
   justify-content: space-between;
   gap: 15px;
   width: 100%;
-  background: #f7f7f7;
+  background: var(--color-i-box);
   /* box-shadow: var(--shad); */
   /* border-radius: 2em; */
   padding: 10px;
