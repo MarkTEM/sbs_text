@@ -48,8 +48,24 @@ p { color: var(--color-txt-p); font-size: 15px; }
 /* --------- */
 
 
-
-
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: var(--color-header);
+    box-shadow: 0 2px 7px 0 rgb(0 0 0 / 4%);
+}
+@media screen and (max-width: 720px) {
+  header {
+    padding: 8px 8px;
+    transition: padding .2s linear;
+  }
+}
+.header__text {
+  color: var(--color-header-txt);
+}
+.header__items { display: flex; align-items: center; gap: 15px; }
 
 /* ---ICO--- */
 .ico {

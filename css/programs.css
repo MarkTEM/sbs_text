@@ -8,20 +8,6 @@ body {
 
 
 /* HEADER */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    background: var(--color-header);
-    box-shadow: 0 2px 7px 0 rgb(0 0 0 / 4%);
-}
-@media screen and (max-width: 720px) {
-    header {
-      padding: 10px 8px;
-      transition: 0.2s;
-    }
-}
 
 .header__nav {
     display: flex;
