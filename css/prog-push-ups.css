@@ -1,6 +1,6 @@
 body {
     font-family: 'Inter', sans-serif;
-    background: var(--color-bg);
+    background: var(--color-bg0);
     height: 100%;
     /* background-image: url('../img/fon.jpg'); */
     /* background: -webkit-linear-gradient(0deg,#696eff,#f6a9ff); */
@@ -72,6 +72,7 @@ body {
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 100px;
+  /* background: var(--color-bg); */
 }
 /* --------*/
 @media screen and (max-width: 720px) {

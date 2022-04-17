@@ -52,13 +52,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 12px;
+  padding: 10px 15px;
   background: var(--color-header);
     box-shadow: 0 2px 7px 0 rgb(0 0 0 / 4%);
 }
 @media screen and (max-width: 720px) {
   header {
-    padding: 8px 8px;
+    padding: 10px 10px;
     transition: padding .2s linear;
   }
 }
@@ -194,12 +194,18 @@ header {
 
 /* --------- */
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #0e0e0e;
-  min-height: 30vh;
-  margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0e0e0e;
+    min-height: 30vh;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+@media screen and (max-width: 720px) {
+    footer {
+      border-radius: 15px;
+    }
 }
 /* --------- */
 
