@@ -1,5 +1,5 @@
 :root {
-    --color-bg0: #151516;
+    --color-bg0: #111111;
     --color-bg: #111111;
     --color-txt: #F2F2F2;
     --color-txt-p: #b1b1b1;
@@ -22,6 +22,7 @@
     --ico-home: url(../ico/ico_home.svg);
     --ico-settings: url(../ico/ico_settings.svg);
     --ico-search: url(../ico/ico_search.svg);
+    --ico-top: url(../ico/ico_top.svg);
     --ico-dop: url(../ico/ico_dop.svg);
     --ico-new: url(../ico/ico_new.svg);
     --ico-collection: url(../ico/ico_collection.svg);
