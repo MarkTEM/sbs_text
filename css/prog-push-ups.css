@@ -199,7 +199,7 @@ body {
   .box__1 {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 100%;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     padding: 12px;
     min-height: 100vh;
   }
@@ -218,7 +218,7 @@ body {
 }
 
 @keyframes menu_an22 {
-  0% { opacity: 0%; margin-top: 100px;}
+  0% { padding-top: 10%;}
   100% { }
 }
 
