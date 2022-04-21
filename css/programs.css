@@ -124,7 +124,7 @@ body {
 }
 
 @keyframes wrap_an3 {
-  0% { padding-top: 20%; margin-top: 100px; }
+  0% { padding-top: 100px; margin-top: 50px; }
   100% { }
 }
 /* ---------- */
