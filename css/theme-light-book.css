@@ -5,6 +5,7 @@
     --color-box: rgba(255, 255, 255, 0.7);
     
     --color-header: rgba(255, 255, 255, 0.7);
+    --color-header-txt: #232323;
     --color-item: #2E3031;
     --color-item2: #fff;
     --color-border: #c2c2c2;
@@ -23,6 +24,7 @@
     --ico-prog: url(../ico/ico_prog_dark.svg);
     --ico-workout: url(../ico/ico_workout_dark.svg);
     --ico-exercises: url(../ico/ico_exercises_dark.svg);
+    
 
     --fil-prog: none;
 

@@ -6,6 +6,7 @@
     --color-box: #1f1f1f;
 
     --color-header: #1f1f1f;
+    --color-header-txt: #F2F2F2;
     --color-item: #272727;
     --color-item2: #181818;
 
@@ -16,6 +17,7 @@
     /* ICO */
     --ico-back: url(../ico/ico_back.svg);
     --ico-home: url(../ico/ico_home.svg);
+    --ico-home2: url(../ico/ico_home.svg);
     --ico-settings: url(../ico/ico_settings.svg);
     --ico-search: url(../ico/ico_search.svg);
     --ico-dop: url(../ico/ico_dop.svg);

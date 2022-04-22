@@ -25,7 +25,7 @@ body {
 
 .header__items { display: flex; gap: 15px; }
 
-.ico__home { background-image: var(--ico-home); }
+.ico__home { background-image: var(--ico-home2); }
 
 
 .ico__search { background-image: var(--ico-search) }
@@ -33,7 +33,13 @@ body {
 
 /* --------*/
 
-
+/* .video__item,
+.video__item iframe {
+  object-fit: cover;
+  width: 400px;
+  height: 220px;
+  border-radius: 8px;
+} */
 
 
 /* --------*/
