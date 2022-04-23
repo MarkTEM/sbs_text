@@ -10,7 +10,8 @@ body {
 
 .cont_wrap { margin-left: 12px; margin-right: 12px;}
 
-.cont_prew { padding: 60px 12px; background: #101011; }
+.cont_prew { overflow: hidden; padding: 60px 12px; background: #101011; }
+
 .wrapper {
   max-width: 1360px;
   margin: 0 auto;
@@ -218,13 +219,13 @@ body {
 }
 
 .box__1 {
-  animation-duration: .6s;
+  animation-duration: .8s;
   animation-name: menu_an22;
   transition-timing-function: ease-in;
 }
 
 @keyframes menu_an22 {
-  0% { padding-top: 10%;}
+  0% { opacity: 0; padding-top: 10%; margin-bottom: -50vh; transform: scale(.9); }
   100% { }
 }
 
