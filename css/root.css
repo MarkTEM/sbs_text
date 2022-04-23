@@ -12,8 +12,8 @@ body::-webkit-scrollbar {width: 6px; height: 6px;}
 body::-webkit-scrollbar-corner {height: 10px;}
 body::-webkit-scrollbar-track { background-color: #0606067a;
     /* border-radius: 2rem; */
-    /* margin-top: 6px; */
-    /* margin-bottom: 6px; */
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 body::-webkit-scrollbar-thumb { background-color: #333; border-radius: 2rem; }
 body::-webkit-scrollbar-thumb:hover { background-color: #444; }

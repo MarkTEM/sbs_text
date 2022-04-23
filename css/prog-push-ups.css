@@ -10,8 +10,14 @@ body {
 
 .cont_wrap { margin-left: 12px; margin-right: 12px;}
 
-
-
+.cont_prew { padding: 60px 12px; background: #101011; }
+.wrapper {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+/* @media screen and (max-width: 720px) {
+    .wrapper { max-width: 1660px; }
+} */
 /* HEADER */
 
 .header__text {
@@ -148,6 +154,7 @@ body {
 .bg {
   background: var(--color-bg);
   border-radius: 4px;
+  background-image: url('../img/fon_light1.png');
 }
 @media screen and (max-width: 720px) {
   .bg {
@@ -186,22 +193,21 @@ body {
   align-items: start;
   grid-template-columns: 1fr 1.2fr;
   /* grid-gap: 20px; */
-  background: var(--color-header);
-  overflow: hidden;
-  max-width: 1360px;
-  margin: 0 auto;
-  margin-bottom: 60px;
+  
+  /* overflow: hidden; */
+  /* max-width: 1360px; */
+  /* margin: 0 auto; */
   /* border-radius: 8px; */
   gap: 20px;
-  padding: 20px;
+  /* padding: 0 20px; */
 }
 @media screen and (max-width: 720px) {
   .box__1 {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 100%;
     /* border-radius: 15px; */
-    padding: 12px;
-    min-height: 100vh;
+    /* padding: 12px; */
+    /* min-height: 100vh; */
   }
 }
 .box__1 p{
