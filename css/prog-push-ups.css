@@ -12,6 +12,10 @@ body {
 
 .cont_prew { overflow: hidden; padding: 60px 12px; background: #101011; }
 
+@media screen and (max-width: 720px) {
+  .cont_prew { padding: 30px 12px 60px 12px; }
+}
+
 .wrapper {
   max-width: 1360px;
   margin: 0 auto;
@@ -470,7 +474,7 @@ body {
 }
 @media screen and (max-width: 830px) { .program__up { width: 100%; } }
 .prew__prog1 {
-  padding-top: 66%;
+  padding-top: 64%;
   background-image: url(../img/prog-up.webp);
   background-repeat: no-repeat;
   background-position: center;
@@ -561,7 +565,7 @@ hr {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  background: #232325;
+  background: #1e1e1f;
   padding: 15px 25px;
   border-radius: 10px;
   color: var(--color-txt2);
