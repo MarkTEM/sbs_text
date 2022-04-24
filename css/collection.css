@@ -26,7 +26,16 @@ h2::marker {
 @media screen and (max-width: 720px) {
   .bg { border-radius: 15px;}
 }
+.bg {
+  animation-duration: .8s;
+  animation-name: bg;
+  transition-timing-function: ease-in;
+}
 
+@keyframes bg {
+  0% { margin-top: 60px; padding-top: 120px;}
+  100% { }
+}
 /* HEADER */
 
 .header__nav {
