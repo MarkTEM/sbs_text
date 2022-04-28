@@ -280,6 +280,7 @@ h2::marker {
   align-items: flex-start;
   gap: 15px;
   background: #f7f7f7;
+  background: var(--color-item2);
   padding: 30px;
   border-radius: 20px;
   max-width: 400px;
