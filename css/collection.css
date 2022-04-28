@@ -84,7 +84,7 @@ h2::marker {
 @media only screen and (max-width: 720px) {
   #wrap__center {
     flex-direction: column;
-    padding: 15px 8px;
+    padding: 0px;
     max-width: 100%;
   }
 }
@@ -281,8 +281,8 @@ h2::marker {
   gap: 15px;
   background: #f7f7f7;
   background: var(--color-item2);
-  padding: 30px;
-  border-radius: 20px;
+  padding: var(--box-padding);
+  border-radius: var(--radius);
   max-width: 400px;
 }
 .item__site, a {
