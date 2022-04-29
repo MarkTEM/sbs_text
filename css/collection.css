@@ -205,6 +205,11 @@ h2::marker {
   float: right;
   width: 300px;
 }
+@media screen and (max-width: 720px) {
+  .box__dop {
+    width: 100%;
+  }
+}
 .dop_items {
   position: sticky;
   top: 20px;
@@ -223,9 +228,13 @@ h2::marker {
   /* flex-direction: column; */
   flex-wrap: wrap;
   gap: 5px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
-
+/* @media screen and (min-width: 720px) {
+  .menu__dop {
+    flex-direction: column;
+  }
+} */
 .box__cont {
   display: flex;
   flex-wrap: wrap;
@@ -281,30 +290,13 @@ h2::marker {
   gap: 15px;
   background: #f7f7f7;
   background: var(--color-item2);
-  padding: var(--box-padding);
+  /* padding: var(--box-padding); */
+  padding: 20px;
   border-radius: var(--radius);
   max-width: 400px;
 }
 .item__site, a {
   color: rgb(60, 60, 241);
-}
-.prew__site {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border: 3px solid var(--color-elements);
-  transition: .2s linear;
-}
-.p-s1 { background-image: url('../img/pfpmaker.png'); }
-.p-s2 { background-image: url('../img/ps2.png'); }
-@media screen and (max-width: 720px) {
-  .prew__site {
-    width: 50px;
-    height: 50px;
-  }
 }
 
 .btn__tag {
@@ -312,11 +304,12 @@ h2::marker {
     font-weight: 400;
     padding: .4em 1.4em;
     border-radius: 10px;
-    color: var(--color-elements);
-    border: 1px solid var(--color-elements);
+    color: var(--color-txt);
+    border: 1px solid var(--color-border);
     /* transition: background-color .2s ease-out; */
 }
 .btn__tag:hover {
   color: #fff;
   background-color: var(--color-elements);
+  border: 1px solid var(--color-elements);
 }

@@ -10,7 +10,8 @@ html { scroll-behavior: smooth;}
 /*----------------SCROLLBAR-----------------*/
 body::-webkit-scrollbar {width: 6px; height: 6px;}
 body::-webkit-scrollbar-corner {height: 10px;}
-body::-webkit-scrollbar-track { background-color: #0606067a;
+body::-webkit-scrollbar-track { 
+  /* background-color: #0606067a; */
     /* border-radius: 2rem; */
     margin-top: 4px;
     margin-bottom: 4px;
