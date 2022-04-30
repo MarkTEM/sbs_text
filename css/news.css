@@ -100,11 +100,11 @@ h2::marker {
     max-width: 1600px;
   }
 }
-#wrap__center > h1 {
-  font-size: 28px;
+#wrap__center h1 {
+  font-size: 24px;
 }
 @media only screen and (max-width: 720px) {
-  #wrap__center > h1 {
+  #wrap__center h1 {
     font-size: 20px;
     padding: 10px;
   }
@@ -189,6 +189,7 @@ h2::marker {
 @media only screen and (max-width: 720px) {
   .box__1 {
     grid-template-columns: 1fr;
+    margin: 10px 0 60px 0;
   }
 }
 @media only screen and (min-width: 720px) {
@@ -250,7 +251,7 @@ h2::marker {
 .prew__post {
   width: 100%;
   padding-top: 35%;
-  background-image: url(../img/wallpaper.jpg);
+  background-image: url(../img/wallpaper.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
