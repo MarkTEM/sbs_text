@@ -204,7 +204,7 @@ h2::marker {
 .box__1 p{
   color: #757575;
   font-size: 15px;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 .new__item {
@@ -212,6 +212,11 @@ h2::marker {
   height: 400px;
   box-shadow: var(--shad);
   overflow: hidden;
+}
+@media only screen and (max-width: 720px) {
+  .new__item {
+    height: auto;
+  }
 }
 /* .new__item:hover > .new__prew {
   padding-top: 60%;
@@ -227,12 +232,14 @@ h2::marker {
 .new__prew {
   width: 100%;
   padding-top: 50%;
-  background-image: url(../img/ps3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   transition: padding .2s linear;
 }
+.photo__1 { background-image: url(../img/ps3.jpg); }
+.photo__2 { background-image: url(https://cdn.comss.net/img/042022/2022-04-29_210323.jpg); }
+.photo__3 { background-image: url(https://wylsa.com/wp-content/uploads/2022/04/lexus-rz-450e.jpg); }
 .new__list {
   background: var(--color-box);
   height: 100%;
@@ -258,6 +265,7 @@ h2::marker {
     padding-top: 45%;
   }
 }
+
 .fil__title {
   display: flex;
   justify-content: space-between;
