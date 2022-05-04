@@ -57,6 +57,7 @@ body {
   background: var(--color-bg);
   border-radius: 4px;
   transition: border-radius .2s linear;
+  box-shadow: var(--shad);
 }
 /* --------*/
 @media screen and (max-width: 720px) {

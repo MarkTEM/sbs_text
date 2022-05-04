@@ -144,7 +144,7 @@ h2::marker {
 .short__flex {
   display: grid;
   /* flex-wrap: wrap; */
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   /* grid-template-rows: 4fr; */
   gap: 20px;
 }
@@ -184,10 +184,12 @@ h2::marker {
 .img_an2 { background-image: url(../img/orig2.jpg); }
 
 .box__film {
-  background: rgb(59, 59, 59);
+  /* background: rgb(221, 221, 221); */
   padding: var(--box-padding);
   border-radius: 2px;
-  margin: 30px 0;
+  margin: 30px 0px;
+  /* position: absolute; */
+  /* width: 500px; */
   background-image: url(../img/fon.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -197,7 +199,7 @@ h2::marker {
   .box__film {
     margin: 10px -8px;
     border-radius: 0px;
-    padding: 30px 15px;
+    /* padding: 30px 15px; */
   }
 }
 
@@ -346,3 +348,10 @@ h2::marker {
   border: 1px solid var(--color-elements);
 }
 
+.slider2 {
+  overflow: auto;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin: 30px 0 60px 0;
+}

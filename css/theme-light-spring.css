@@ -1,22 +1,29 @@
 :root {
-
+    --color-bg0: #F4F4F4;
     --color-bg: #FFFFFF;
     --color-txt: #232323;
+    --color-txt-p: #8d8d8d;
+    --color-txt2: #f5f5f5;
+    --color__p2: #aaabad;
     --color-box: #FFFFFF;
 
-    --color-header: #fff;
+    --color-header: #F4F4F4;
     --color-header-txt: #232323;
     --color-item: #2E3031;
     --color-item2: #EFEFEF;
+    --color-item-title: #2d2d31;
     --color-border: #c2c2c2;
+    --color-border2: #ebebeb;
 
     --color-elements: #20ABF9;
     /* --color-elements: #3282CD; */
     /* ICO */
     --ico-back: url(../ico/ico_back_dark.svg);
     --ico-home: url(../ico/ico_home_dark.svg);
+    --ico-home2: url(../ico/ico_home_dark.svg);
     --ico-settings: url(../ico/ico_settings_dark.svg);
     --ico-search: url(../ico/ico_search_dark.svg);
+    --ico-top: url(../ico/ico_top.svg);
     --ico-dop: url(../ico/ico_dop.svg);
     --ico-new: url(../ico/ico_new_dark.svg);
     --ico-collection: url(../ico/ico_collection_dark.svg);
@@ -30,6 +37,7 @@
     --ico-hint: url(../ico/ico_hint_dark.svg);
 
     --radius: 15px;
+    --box-padding: 20px;
 
     --shad: 0px 2px 10px rgb(0 0 0 / 12%);
 
