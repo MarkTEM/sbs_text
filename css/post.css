@@ -92,13 +92,13 @@ h2::marker {
   }
 }
 @media only screen and (min-width: 720px) { #wrap__center { padding: 30px 15px; }}
-@media only screen and (min-width: 992px) { #wrap__center { padding: 30px; }}
-@media only screen and (min-width: 1200px) { #wrap__center { padding: 60px; }}
+@media only screen and (min-width: 992px) { #wrap__center { padding: 50px; }}
+@media only screen and (min-width: 1200px) { #wrap__center { padding: 60px 100px; }}
 @media only screen and (min-width: 1400px) { #wrap__center { padding: 60px 80px; }}
 @media only screen and (min-width: 1600px) {
   #wrap__center {
     padding: 60px 100px;
-    max-width: 1600px;
+    max-width: 1400px;
   }
 }
 #wrap__center h1 {
@@ -186,7 +186,7 @@ h2::marker {
 
 .box__1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr; */
   /* margin: 30px 0 60px 0; */
   gap: 20px;
   background: var(--color-box);
@@ -203,7 +203,7 @@ h2::marker {
 }
 @media only screen and (min-width: 720px) {
   .box__1 {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -214,12 +214,13 @@ h2::marker {
 .box__1 p{
   color: #757575;
   font-size: 15px;
-  margin: 15px 0;
+  margin-bottom: 30px;
 }
 
-/* .new__item {
+.new__item {
+  background-color: var(--color-box);
+  padding: 50px;
   border-radius: var(--radius);
-  height: 400px;
   box-shadow: var(--shad);
   overflow: hidden;
 }
@@ -227,7 +228,7 @@ h2::marker {
   .new__item {
     height: auto;
   }
-} */
+}
 /* .new__item:hover > .new__prew {
   padding-top: 60%;
   transform: scale(3);
@@ -241,7 +242,7 @@ h2::marker {
 } */
 .new__prew {
   width: 100%;
-  padding-top: 35%;
+  padding-top: 40%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -252,57 +253,32 @@ h2::marker {
     padding-top: 50%;
   }
 }
-.photo__1 { background-image: url(../img/ps3.jpg); }
+.photo__1 { background-image: url(../img/ue5-4_big.jpg); }
 
 .new__list {
   /* background: var(--color-box); */
-  height: 100%;
+  /* height: 100%; */
   padding: 20px;
+}
+@media only screen and (min-width: 720px) {
+  .new__list {
+    padding: 30px;
+  }
 }
 .new__list > h2 {
   margin-bottom: 20px;
 }
 /* data { color: #c5c5c5; font-size: 14px;} */
 
-/* .prew__post {
-  width: 100%;
-  padding-top: 35%;
-  background-image: url(../img/wallpaper.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 30px 0;
-  margin-bottom: 300px;
-  border-radius: var(--radius);
-  box-shadow: var(--shad);
-  overflow: hidden;
-}
-@media only screen and (max-width: 720px) {
-  .prew__post {
-    padding-top: 45%;
-  }
-}
-
-.fil__title {
+.box__2 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  background: rgba(34, 34, 34, 0.6);
-  backdrop-filter: blur(10px);
-  padding: 40px;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 30px 0;
+  background: #ececec;
+  border-radius: var(--radius);
+  padding: 15px;
 }
-@media only screen and (max-width: 720px) {
-  .fil__title {
-    flex-direction: column;
-    padding: 20px;
-  }
-}
-.fil__title > h2 {
-  color: #ffffff;
-  /* font-size: 16px; 
-  font-weight: 400;
-} */
 
 
 .post__box {
@@ -311,3 +287,43 @@ h2::marker {
   /* box-shadow: var(--shad); */
   /* overflow: hidden; */
 }
+.post__box > h1 { padding: 20px;}
+
+.video__item {
+  padding: 10px;
+}
+
+ iframe {
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 720px) {
+  iframe {
+    height: 200px;
+  }
+}
+
+.box__screen {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* margin: 30px 0 60px 0; */
+  gap: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+  border-radius: var(--radius);
+  padding: 10px;
+}
+
+.img_bc {
+  width: 100%;
+  padding-top: 50%;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ph1 { background-image: url(../img/ue5-5_big.jpg); }
+.ph2 { background-image: url(../img/а1.jpeg); }
+.ph3 { background-image: url(../img/ue5-6_big.jpg); }
