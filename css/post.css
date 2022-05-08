@@ -107,7 +107,7 @@ h2::marker {
 @media only screen and (max-width: 720px) {
   #wrap__center h1 {
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
   }
 }
 /* ---------- */
@@ -119,7 +119,7 @@ h2::marker {
   border-radius: 24px;
   background: #232325;
   padding: 4px 4px;
-  box-shadow: var(--shad);
+  /* box-shadow: var(--shad); */
 }
 @media screen and (max-width: 720px) {
   .akk__box {
@@ -193,6 +193,7 @@ h2::marker {
   margin-bottom: 30px;
   padding-bottom: 50px;
   border-radius: var(--radius);
+  box-shadow: var(--shad);
   overflow: hidden;
 }
 @media only screen and (max-width: 720px) {
@@ -309,11 +310,11 @@ h2::marker {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   /* margin: 30px 0 60px 0; */
-  gap: 20px;
+  gap: 10px;
   margin-bottom: 30px;
   padding-bottom: 50px;
   border-radius: var(--radius);
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .img_bc {
@@ -327,3 +328,8 @@ h2::marker {
 .ph1 { background-image: url(../img/ue5-5_big.jpg); }
 .ph2 { background-image: url(../img/а1.jpeg); }
 .ph3 { background-image: url(../img/ue5-6_big.jpg); }
+
+
+.media {
+  /* background-color: #d3d3d3; */
+}
