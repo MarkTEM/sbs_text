@@ -256,3 +256,39 @@ footer {
   background-size: 2em;
   margin-bottom: 5px;
 }
+
+
+/* --Боковая копка-- */
+.btn__back_fix {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* height: 100px; */
+  padding: 40px 40px 40px 0px;
+  /* background-color: #a15858; */
+  border-radius: 0 40px 40px 0;
+  overflow: hidden;
+  transition: padding .3s ease-in-out;
+  margin-left: -50px;
+}
+.btn__back_fix:hover {
+  padding-left: 50px;
+}
+.ico__ben {
+  width: 40px;
+  height: 80px;
+  border-radius: 0 40px 40px 0;
+  background-color: #2d2d31;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1.5em;
+  box-shadow: var(--shad);
+  transition: border-radius .2s ease-in-out;
+}
+.ico__ben:hover {
+  border-radius: 0 20px 20px 0;
+  
+}
