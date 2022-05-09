@@ -4,9 +4,10 @@
     box-sizing: border-box;
     outline: none;
 }
-html { scroll-behavior: smooth;}
-
-
+html { scroll-behavior: smooth; }
+@media only screen and (min-width: 720px) {
+  html { margin-right: 4px; }
+}
 /*----------------SCROLLBAR-----------------*/
 body::-webkit-scrollbar {width: 6px; height: 6px;}
 body::-webkit-scrollbar-corner {height: 10px;}
