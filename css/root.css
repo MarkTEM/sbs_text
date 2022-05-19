@@ -74,6 +74,17 @@ header {
   color: var(--color-header-txt);
 }
 .header__items { display: flex; align-items: center; gap: 15px; }
+.header__grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.5fr;
+  grid-gap: 30px;
+}
+@media screen and (max-width: 720px) {
+  .header__grid {
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 10px;
+  }
+}
 
 /* ---ICO--- */
 .ico {
@@ -88,6 +99,24 @@ header {
   transition: 0.2s;
 }
 
+.cont__nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav__search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* max-width: 240px; */
+  background: #232325;
+  padding: 2px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 720px) {
+  .nav__search {
+    max-width: 100%;
+  }
+}
 .nav {
   display: flex;
   background: #232325;
