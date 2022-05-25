@@ -119,7 +119,9 @@ header {
 }
 .nav {
   display: flex;
-  background: #232325;
+  align-items: center;
+  background: var(--color-nav);
+  box-shadow: var(--shad);
   gap: 2px;
   padding: 2px;
   border-radius: 10px;
