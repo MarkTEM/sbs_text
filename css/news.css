@@ -253,7 +253,7 @@ h2::marker {
 .new__list {
   background: var(--color-box);
   height: 100%;
-  padding: 20px;
+  padding: var(--box-padding);
 }
 /* data { color: #c5c5c5; font-size: 14px;} */
 

@@ -1,7 +1,7 @@
 :root {
 	/* color */
-    --color-bg0: #151516;
-    --color-bg: #f5f5f5;
+    --color-bg0: #151515;
+    --color-bg: #f2f2f2;
     --color-txt: #353535;
     --color-txt-p: #8d8d8d;
     --color-txt2: #f5f5f5;
@@ -18,12 +18,18 @@
     --color-border2: #ebebeb;
 
     --color-elements: rgb(56, 155, 248);
+    --color-nav: #232325;
+    --color-hover: #353538;
     
     /* ICO */
     --ico-back: url(../ico/ico_back.svg);
     --ico-home: url(../ico/ico_home.svg);
     --ico-home2: url(../ico/ico_home_dark.svg);
     --ico-settings: url(../ico/ico_settings.svg);
+    --ico-exit: url(../ico/ico_exit.svg);
+    --ico-menu: url(../ico/ico_menu.svg);
+    --ico-close: url(../ico/ico_close.svg);
+    --ico-help: url(../ico/ico_help.svg);
     --ico-search: url(../ico/ico_search.svg);
     --ico-top: url(../ico/ico_top.svg);
     --ico-dop: url(../ico/ico_dop.svg);
@@ -40,8 +46,9 @@
 
     --radius: 16px;
     --box-padding: 20px;
+    --margin: 20px;
 
-    --shad: 0px 2px 7px rgb(0 0 0 / 4%);
+    --shad: 0px 2px 5px rgb(0 0 0 / 2%);
 
     --cont-padding: 30px;
     --cont-padding2: 15px;
@@ -52,13 +59,25 @@
 /* ------------------------------- */
 
 
+  /* .color__item[data-tempcolor='Ogange'] {
+    :root
+        --color-elements: rgb(56, 155, 248);
+    
+  } */
+
+
+
 
 /* ------------------------------- */
 h1 { font-weight: 700; }
 h3 { font-weight: 600; }
 p { font-weight: 400; }
 /* ------------------------------- */
-
+/*----------------SCROLLBAR-----------------*/
+body::-webkit-scrollbar-thumb { background-color: #333; border-radius: 2rem; }
+body::-webkit-scrollbar-thumb:hover { background-color: #444; }
+body::-webkit-scrollbar-track-piece { border-radius: 2rem; }
+/*------------------------------------------*/
 
 
 
@@ -66,6 +85,6 @@ p { font-weight: 400; }
 .change-theme[data-theme="light"] {
     background: var(--color-elements);
     border: 1px solid var(--color-elements);
-    color: #F2F2F2;
+    color: #fff;
 }
 /* ------------------------------- */
