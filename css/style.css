@@ -32,10 +32,10 @@ body {
 
 .ico__search { background-image: var(--ico-search) }
 .ico__setting { background-image: var(--ico-settings); }
-.ico__menu { background-image: var(--ico-menu); opacity: 20%; }
+.ico__menu { background-image: var(--ico-menu); opacity: 30%; }
 .ico__exit {
   background-image: var(--ico-exit);
-  opacity: 20%;
+  opacity: 30%;
 }
 .ico__favourites {
   background-image: var(--ico-favourites);
@@ -132,7 +132,7 @@ body {
   /* border-radius: 8px; */
 }
 .admin p {
-  color: #fff;
+  color: #757575;
   font-size: 12px;
   font-weight: 400;
 }
