@@ -31,6 +31,7 @@ body::-webkit-scrollbar-track-piece { border-radius: 2rem; }
     --ico-settings: url(../ico/ico_settings.svg);
     --ico-exit: url(../ico/ico_exit.svg);
     --ico-menu: url(../ico/ico_menu.svg);
+    --ico-exit: url(../ico/ico_exit.svg);
     --ico-close: url(../ico/ico_close.svg);
     --ico-help: url(../ico/ico_help.svg);
     --ico-search: url(../ico/ico_search.svg);
@@ -38,6 +39,7 @@ body::-webkit-scrollbar-track-piece { border-radius: 2rem; }
     --ico-dop: url(../ico/ico_dop.svg);
     --ico-new: url(../ico/ico_new.svg);
     --ico-collection: url(../ico/ico_collection.svg);
+    --ico-favourites: url(../ico/ico_favourites.svg);
     --ico-prog: url(../ico/ico_prog.svg);
     --ico-workout: url(../ico/ico_workout.svg);
     --ico-exercises: url(../ico/ico_exercises.svg);
@@ -47,7 +49,7 @@ body::-webkit-scrollbar-track-piece { border-radius: 2rem; }
     --ico-lock: url(../ico/ico_lock.svg);
     --ico-hint: url(../ico/ico_hint.svg);
 
-    --radius: 15px;
+    --radius: 12px;
     --box-padding: 20px;
     --margin: 20px;
 
