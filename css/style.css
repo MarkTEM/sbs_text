@@ -279,7 +279,7 @@ body {
   /* padding: 20px; */
   /* border-radius: var(--radius); */
   /* background: var(--color-box); */
-  box-shadow: var(--shad);
+  /* box-shadow: var(--shad); */
 }
 .box__1 p{
   color: #757575;

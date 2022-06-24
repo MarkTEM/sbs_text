@@ -1,25 +1,34 @@
 :root {
-	/* color */
-    --color-bg0: #151515;
-    --color-bg: #f2f2f2;
-    --color-txt: #353535;
-    --color-txt-p: #8d8d8d;
-    --color-txt2: #f5f5f5;
-    --color__p2: #aaabad;
-    --color-box: #FFFFFF;
-    --color-i-box: #f7f7f7;
-    
-    --color-header: #151516;
-    --color-header-txt: #F2F2F2;
-    --color-item: #2d2d31;
-    --color-item2: #f7f7f7;
-    --color-item-title: #2d2d31;
-    --color-border: #dddddd;
-    --color-border2: #ebebeb;
+/* color */
+--color-bg0: #151515;
+--color-bg: #f2f2f2;
+--color-txt: #353535;
+--color-txt-p: #8d8d8d;
+--color-txt2: #f5f5f5;
+--color__p2: #aaabad;
+--color-box: #FFFFFF;
+--color-i-box: #f7f7f7;
 
-    --color-elements: rgb(56, 155, 248);
-    --color-nav: #232325;
-    --color-hover: #353538;
+--color-header: #151516;
+--color-header2: rgba(19, 19, 19, 0.8);
+--color-header-txt: #F2F2F2;
+--color-item: #2d2d31;
+--color-item2: #f7f7f7;
+--color-item-title: #2d2d31;
+--color-border: #dddddd;
+--color-border2: #ebebeb;
+--color-border3: #242424;
+
+--color-elements: rgb(56, 155, 248);
+--color-nav: #232325;
+--color-hover: #353538;
+/*-Cont-menu-*/
+--color-menu: #232325;
+--color-menuhover: #353538;
+--color-menutext: #f2f2f2;
+--color-bordermenu: #353538;
+--wight-textm: 400;
+/*---*/
     
     /* ICO */
     --ico-back: url(../ico/ico_back.svg);
@@ -28,6 +37,7 @@
     --ico-settings: url(../ico/ico_settings.svg);
     --ico-exit: url(../ico/ico_exit.svg);
     --ico-menu: url(../ico/ico_menu.svg);
+    --ico-exit: url(../ico/ico_exit.svg);
     --ico-close: url(../ico/ico_close.svg);
     --ico-help: url(../ico/ico_help.svg);
     --ico-search: url(../ico/ico_search.svg);
@@ -35,6 +45,7 @@
     --ico-dop: url(../ico/ico_dop.svg);
     --ico-new: url(../ico/ico_new_dark.svg);
     --ico-collection: url(../ico/ico_collection_dark.svg);
+    --ico-favourites: url(../ico/ico_favourites_dark.svg);
     --ico-prog: url(../ico/ico_prog_dark.svg);
     --ico-workout: url(../ico/ico_workout_dark.svg);
     --ico-exercises: url(../ico/ico_exercises_dark.svg);
@@ -44,7 +55,7 @@
     --ico-lock: url(../ico/ico_lock_dark.svg);
     --ico-hint: url(../ico/ico_hint_dark.svg);
 
-    --radius: 16px;
+    --radius: 12px;
     --box-padding: 20px;
     --margin: 20px;
 
@@ -57,7 +68,11 @@
 
 }
 /* ------------------------------- */
-
+@media only screen and (max-width: 720px) {
+  :root {
+      --box-padding: 15px;
+  }
+}
 
   /* .color__item[data-tempcolor='Ogange'] {
     :root
