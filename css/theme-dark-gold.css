@@ -61,6 +61,12 @@ body::-webkit-scrollbar-track-piece { border-radius: 2rem; }
     --bg-menu-bottom: rgba(40, 40, 40, 0.9);
 
 }
+@media only screen and (max-width: 720px) {
+    :root {
+        --box-padding: 15px;
+    }
+}
+
 h1 { font-weight: 600; letter-spacing: 0.01em; }
 h2 { font-weight: 600; }
 h3 { font-weight: 400; }
