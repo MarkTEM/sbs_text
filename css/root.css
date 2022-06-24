@@ -63,6 +63,10 @@ header {
   /* backdrop-filter: blur(10px); */
   /* box-shadow: 0 2px 7px 0 rgb(0 0 0 / 4%); */
   /* border-bottom: 1px solid #222222; */
+  position: sticky;
+  top: 0px;
+  background: var(--color-header2);
+  backdrop-filter: blur(10px);
 }
 @media screen and (max-width: 720px) {
   header {
