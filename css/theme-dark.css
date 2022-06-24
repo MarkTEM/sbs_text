@@ -15,30 +15,39 @@ body::-webkit-scrollbar-track-piece { border-radius: 2rem; }
     --color-i-box: #191919;
 
     --color-header: #1f1f1f;
+    --color-header2: rgba(19, 19, 19, 0.9);
     --color-header-txt: #F2F2F2;
     --color-item: #202020;
-    --color-item2: #181818;
+    --color-item2: #202020;
 
     --color-elements: #3282CD;
     --color-border: #404044;
     --color-border2: #2e2e2e;
     --color-nav: #232325ed;
     --color-hover: #353538;
+    /*-Cont-menu-*/
+    --color-menu: #232325ed;
+    --color-menuhover: #353538;
+    --color-menutext: #F2F2F2;
+    --color-bordermenu: #2e2e2e;
+    --wight-textm: 400;
     /* --color-elements: #3282CD; */
     /* ICO */
     --ico-back: url(../ico/ico_back.svg);
     --ico-home: url(../ico/ico_home.svg);
     --ico-home2: url(../ico/ico_home.svg);
     --ico-settings: url(../ico/ico_settings.svg);
+    --ico-exit: url(../ico/ico_exit.svg);
     --ico-menu: url(../ico/ico_menu.svg);
+    --ico-exit: url(../ico/ico_exit.svg);
     --ico-close: url(../ico/ico_close.svg);
     --ico-help: url(../ico/ico_help.svg);
-    --ico-exit: url(../ico/ico_exit.svg);
     --ico-search: url(../ico/ico_search.svg);
     --ico-top: url(../ico/ico_top.svg);
     --ico-dop: url(../ico/ico_dop.svg);
     --ico-new: url(../ico/ico_new.svg);
     --ico-collection: url(../ico/ico_collection.svg);
+    --ico-favourites: url(../ico/ico_favourites.svg);
     --ico-prog: url(../ico/ico_prog.svg);
     --ico-workout: url(../ico/ico_workout.svg);
     --ico-exercises: url(../ico/ico_exercises.svg);
@@ -59,6 +68,11 @@ body::-webkit-scrollbar-track-piece { border-radius: 2rem; }
 
     --bg-menu-bottom: rgba(40, 40, 40, 0.9);
 
+}
+@media only screen and (max-width: 720px) {
+    :root {
+        --box-padding: 15px;
+    }
 }
 
 h1 { font-weight: 600; }

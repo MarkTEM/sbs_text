@@ -13,7 +13,7 @@ body::-webkit-scrollbar-track-piece { border-radius: 2rem; }
     --color-box: #1f1f1f;
     --color-i-box: #191919;
 
-    --color-header2: rgba(19, 19, 19, 0.8);
+    --color-header2: rgba(19, 19, 19, 0.9);
     --color-header-txt: #F2F2F2;
     --color-item: #19191a;
     --color-item2: #181818;
