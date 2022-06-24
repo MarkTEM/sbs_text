@@ -12,7 +12,7 @@ body {
 } */
 
 .theme h3{
-  margin: 10px 0;
+  /* margin: 10px 0; */
   padding: 10px;
   background: var(--color-box);
   border-radius: 10px;
@@ -75,7 +75,44 @@ body {
     border-radius: 15px;
   }
 }
-
+/* --------*/
+#wrap__center {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* gap: 20px; */
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 30px 0px;
+  transition: padding .2s linear;
+}
+/* --------*/
+@media only screen and (max-width: 720px) {
+  #wrap__center {
+    padding: 20px 12px;
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 720px) { #wrap__center { padding: 30px 15px; }}
+@media only screen and (min-width: 992px) { #wrap__center { padding: 30px 60px; }}
+@media only screen and (min-width: 1200px) { #wrap__center { padding: 60px 80px; max-width: 1200px; }}
+@media only screen and (min-width: 1400px) { #wrap__center { padding: 60px 80px; max-width: 1200px;}}
+@media only screen and (min-width: 1600px) {
+  #wrap__center {
+    padding: 60px 100px;
+    max-width: 1200px;
+  }
+}
+#wrap__center h1 {
+  font-size: 24px;
+}
+@media only screen and (max-width: 720px) {
+  #wrap__center h1 {
+    font-size: 20px;
+    /* padding: 10px; */
+  }
+}
+/* ---------- */
 /* --------*/
 .akk__box {
   display: flex;
