@@ -32,6 +32,11 @@ body {
 
 .ico__search { background-image: var(--ico-search) }
 .ico__setting { background-image: var(--ico-settings); }
+.ico__menu { background-image: var(--ico-menu); opacity: 20%; }
+.ico__exit {
+  background-image: var(--ico-exit);
+  opacity: 20%;
+}
 
 /* --------*/
 
@@ -74,12 +79,23 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 15px;
-  border-radius: 15px 15px 0 0;
+  border-radius: 12px 12px 0 0;
   background: var(--color-item);
   padding: 8px 15px;
-  margin: -10px;
+  margin: -2px;
 }
-
+.admin {
+  display: flex;
+  align-items: center;
+  background-color:#58a0ee5d ;
+  padding: 0px 10px 0px 0px;
+  border-radius: 8px;
+}
+.admin p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
 .user__name {
   display: flex;
   align-items: center;
@@ -92,8 +108,8 @@ body {
 }
 .akk_ico {
     display: block;
-    height: 42px;
-    width: 42px;
+    height: 38px;
+    width: 38px;
     border-radius: 50%;
     background-image: url(../ico/akk.png);
     background-repeat: no-repeat;
@@ -133,7 +149,8 @@ body {
 }
 .menu__box {
   position: relative;
-  padding: 10px;
+  padding: 2px;
+  overflow: hidden;
   background: var(--color-box);
   border-radius: var(--radius);
   box-shadow: var(--shad);
@@ -143,7 +160,7 @@ body {
   border-radius: var(--radius);
   margin-top: 15px;
 }
-.menu { margin-top: 30px; }
+.menu { margin-top: 10px; }
 
 .item__menu {
   display: flex;
@@ -151,14 +168,14 @@ body {
   gap: 10px;
   opacity: 70%;
   color: #F2F2F2;
-  border-radius: var(--radius);
-  padding: .5em;
+  border-radius: 9px;
+  padding: .3em;
   transition: 0.2s;
 }
 .item__menu:hover {
   opacity: 100%;
   background: var(--color-item2);
-  padding-left: .8em;
+  padding-left: .6em;
   transition: 0.2s;
 }
 .item__menu_active {

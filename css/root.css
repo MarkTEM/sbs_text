@@ -89,12 +89,12 @@ header {
 /* ---ICO--- */
 .ico {
   display: block;
-  height: 2em;
-  width: 2em;
+  height: 2.1em;
+  width: 2.1em;
   border-radius: 10px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 1.5em 1.5em;
+  background-size: 1.4em;
   border: 0px solid #222222;
   transition: 0.2s;
 }
@@ -155,7 +155,7 @@ header {
   opacity: 100%;
 }
 
-.galochka { background-image: url(../ico/ico_galochka.svg); }
+.galochka { background-image: url(../ico/ico_galochka.png); }
 .ico__dop { background-image: var(--ico-dop); }
 .ico__new { background-image: var(--ico-new); }
 .ico__collection { background-image: var(--ico-collection); }
