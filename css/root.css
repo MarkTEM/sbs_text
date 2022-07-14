@@ -11,7 +11,7 @@ html { scroll-behavior: smooth; }
 /*----------------SCROLLBAR-----------------*/
 body::-webkit-scrollbar {width: 6px; height: 6px;}
 body::-webkit-scrollbar-corner {height: 10px;}
-body::-webkit-scrollbar-track { 
+body::-webkit-scrollbar-track {
   /* background-color: #0606067a; */
     /* border-radius: 2rem; */
     margin-top: 4px;
@@ -55,7 +55,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 15px;
-  background: var(--color-header);
+  /* background: var(--color-header); */
   /* position: sticky; */
   /* top: 0px; */
   z-index: 9999;
@@ -66,7 +66,7 @@ header {
   position: sticky;
   top: 0px;
   background: var(--color-header2);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
 }
 @media screen and (max-width: 720px) {
   header {
@@ -127,6 +127,7 @@ header {
   align-items: center;
   background: var(--color-nav);
   box-shadow: var(--shad);
+  /* border: 1px solid var(--color-border2); */
   gap: 2px;
   padding: 2px;
   border-radius: 10px;
@@ -134,8 +135,8 @@ header {
 /* --------- */
 .ico__b {
   display: block;
-  height: 2.1em;
-  width: 2.1em;
+  height: 1.9em;
+  width: 1.9em;
   border-radius: 8px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -143,15 +144,15 @@ header {
   /* background-color: #2d2d30; */
   /* border: 0px solid #222222; */
   opacity: 70%;
-  transition: .2s;
+  transition: .1s linear;
 }
 @media screen and (max-width: 720px) {
   .ico__b {
-    height: 2.1em;
-    width: 2.1em;
+    height: 2em;
+    width: 2em;
     background-size: 1.2em;
     opacity: 70%;
-    transition: .2s;
+    transition: .1s linear;
   }
 }
 .ico__b:hover {
@@ -338,5 +339,5 @@ footer {
 }
 .ico__ben:hover {
   border-radius: 0 20px 20px 0;
-  
+
 }
