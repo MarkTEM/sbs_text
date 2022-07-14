@@ -209,12 +209,13 @@ h2::marker {
   }
 }
 .box__1 p{
-  color: #757575;
+  color: var(--color-txt-p);
   font-size: 15px;
   margin: 15px 0;
 }
 
 .new__item {
+  background: var(--color-box);
   border-radius: var(--radius);
   height: 400px;
   box-shadow: var(--shad);
@@ -253,9 +254,20 @@ h2::marker {
 .photo__6 { background-image: url(../img/a2121.jpg); }
 
 .new__list {
-  background: var(--color-box);
+  /* background: var(--color-box); */
   height: 100%;
   padding: var(--box-padding);
+}
+.new__list {
+  animation-duration: .8s;
+  animation-name: piew_text;
+  transition-timing-function: ease-out;
+}
+
+@keyframes piew_text {
+  0% { opacity: 0%}
+  40% { opacity: 10%}
+  100% { }
 }
 /* data { color: #c5c5c5; font-size: 14px;} */
 

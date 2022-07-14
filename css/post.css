@@ -216,7 +216,7 @@ h2::marker {
   }
 }
 .box__1 p{
-  color: #757575;
+  color: var(--color-txt-p);
   font-size: 15px;
   margin-bottom: 30px;
 }
