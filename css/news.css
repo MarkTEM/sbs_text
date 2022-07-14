@@ -151,8 +151,8 @@ h2::marker {
 }
 .akk_ico {
   display: block;
-  height: 32px;
-  width: 32px;
+  height: 28px;
+  width: 28px;
   border-radius: 50%;
   background-image: url(../ico/akk.png);
   background-repeat: no-repeat;
@@ -218,6 +218,7 @@ h2::marker {
   border-radius: var(--radius);
   height: 400px;
   box-shadow: var(--shad);
+  border: 1px solid var(--color-border2);
   overflow: hidden;
 }
 @media only screen and (max-width: 720px) {
@@ -229,12 +230,12 @@ h2::marker {
   padding-top: 60%;
   transform: scale(3);
   transition: .3s ease-in-out;
-  
+
 } */
 .new__prew:hover {
   padding-top: 60%;
   transition: padding .2s ease-out;
-  
+
 }
 .new__prew {
   width: 100%;
@@ -297,5 +298,3 @@ h2::marker {
   /* font-size: 16px; */
   font-weight: 400;
 }
-
-
