@@ -17,13 +17,13 @@ body {
   background: var(--color-box);
   border-radius: 10px;
 }
-.bg {
+/* .bg {
   min-height: 100vh;
   background: var(--color-bg);
   border-radius: 4px;
   overflow: hidden;
   transition: padding .2s linear;
-}
+} */
 
 .cont_wrap { margin-left: 12px; margin-right: 12px;}
 

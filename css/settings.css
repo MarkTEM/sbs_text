@@ -47,8 +47,8 @@ h3 {
 .title__card {
   background-color: var(--color-item);
   color: aliceblue;
-  padding: 10px 20px;
-  font-size: 14px;
+  padding: 10px var(--box-padding);
+  font-size: 13px;
 }
 
 .title2 {
@@ -56,7 +56,16 @@ h3 {
 }
 
 /* --------*/
+.bg {
+  animation-duration: .8s;
+  animation-name: bg;
+  transition-timing-function: ease-in;
+}
 
+@keyframes bg {
+  0% { margin-top: 30px; padding-top: 60px;}
+  100% { }
+}
 
 /* --------*/
 
@@ -111,7 +120,7 @@ h3 {
   gap: 15px;
   background: var(--color-box);
   border-radius: 0 0 12px 12px;
-  padding: 15px;
+  padding: var(--box-padding);
 }
 .akk__box p {
   border-radius: 2em;
@@ -155,9 +164,9 @@ h3 {
 }
 
 .items__theme {
-  padding: 20px;
+  padding: var(--box-padding);
 }
-@media screen and (max-width: 720px) { .items__theme { padding: 15px; } }
+
 .box__theme P{
   color: #757575;
   font-size: 15px;
@@ -220,15 +229,14 @@ h3 {
 
 .content {
   min-height: 80vh;
-  border-radius: 15px;
 }
-@media screen and (min-width: 720px) {
+/* @media screen and (min-width: 720px) {
   .content {
     border-left: 1px dashed var(--color-border);
     border-right: 1px dashed var(--color-border);
     padding: 20px;
   }
-}
+} */
 
 
 .themm_item {
@@ -268,12 +276,9 @@ h3 {
   border-radius: 6px;
   margin: 10px;
   font-size: 12px;
-  
+
 }
 .col_1 { background-color: #FFFFFF; color: #353535;}
 .col_2 { background-color: #FFFFFF; color: #353535;}
 
 .col_d1 { background-color: #1f1f1f; color: #F2F2F2;}
-
-
-
