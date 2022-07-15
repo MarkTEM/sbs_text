@@ -57,6 +57,12 @@ h3 {
 
 /* --------*/
 .bg {
+  background: var(--color-bg);
+  border-radius: 4px;
+}
+@media screen and (max-width: 720px) { .bg { border-radius: 15px; }}
+
+.bg {
   animation-duration: .8s;
   animation-name: bg;
   transition-timing-function: ease-in;

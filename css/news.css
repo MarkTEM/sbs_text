@@ -70,12 +70,23 @@ h2::marker {
   transition-timing-function: ease-in;
 }
 
-@keyframes bg {
-  0% {
-    margin-top: 30px;
-    padding-top: 60px;
+@media screen and (min-width: 720px) {
+  @keyframes bg {
+    0% {
+      margin-top: 30px;
+      padding-top: 60px;
+    }
+    100% { }
   }
-  100% { }
+}
+@media screen and (max-width: 720px) {
+  @keyframes bg {
+    0% {
+      margin-top: 15px;
+      padding-top: 30px;
+    }
+    100% { }
+  }
 }
 /* --------*/
 #wrap__center {
@@ -111,7 +122,7 @@ h2::marker {
 @media only screen and (max-width: 720px) {
   #wrap__center h1 {
     font-size: 20px;
-    padding: 10px;
+    padding: 10px 10px 10px 0;
   }
 }
 /* ---------- */
