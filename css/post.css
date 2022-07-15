@@ -249,7 +249,8 @@ h2::marker {
 }
 @media only screen and (max-width: 720px) {
   .new__item {
-    height: auto;
+    height: 200px;
+    width: 300px;
   }
 }
 
@@ -290,7 +291,6 @@ h2::marker {
 /* data { color: #c5c5c5; font-size: 14px;} */
 
 .box__2 {
-
   /* margin: 30px 0; */
   /* background: #ececec; */
   /* padding: 15px; */
@@ -310,7 +310,11 @@ h2::marker {
     width: 100%;
   }
 }
-
+@media only screen and (max-width: 720px) {
+  .box__2 {
+    height: 220px;
+  }
+}
 .post__box {
   max-width: 100%;
   /* border-radius: var(--radius); */
@@ -398,7 +402,11 @@ h2::marker {
   background-position: center;
   background-size: cover;
 }
-
+@media only screen and (max-width: 720px) {
+  .new__post_mini {
+    padding-top: 40%;
+  }
+}
 .mg1 { background-image: url(../img/ps3.jpg); }
 .mg2 { background-image: url(../img/a2121.jpg); }
 .mg3 { background-image: url(../img/mac.jpg); }
@@ -417,7 +425,7 @@ h2::marker {
     height: auto;
   }
 }
-.box__2::-webkit-scrollbar {width: 6px; height: 8px;}
+.box__2::-webkit-scrollbar {width: 6px; height: 6px;}
 .box__2::-webkit-scrollbar-track {background-color: var(--color-border); border-radius: 2rem;}
 .box__2::-webkit-scrollbar-thumb {background: #7575754d; border-radius: 2rem;}
 .box__2::-webkit-scrollbar-thumb:hover {background-color: rgb(102, 102, 102);}
@@ -451,14 +459,14 @@ h2::marker {
 .btn__tag {
   font-size: 15px;
   font-weight: 400;
-  padding: .4em 1.4em;
+  padding: .4em 1.2em;
   border-radius: 10px;
-  color: var(--color-txt);
-  border: 1px solid var(--color-border);
+  color: #649ae9;
+  border: 1px solid #24364f;
   /* transition: background-color .2s ease-out; */
 }
 .btn__tag:hover {
 color: #fff;
-background-color: var(--color-elements);
-border: 1px solid var(--color-elements);
+background-color: #649ae9;
+border: 1px solid #24364f;
 }
