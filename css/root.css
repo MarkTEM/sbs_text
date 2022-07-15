@@ -70,7 +70,11 @@ header {
 }
 @media screen and (max-width: 720px) {
   header {
+    position: fixed;
     padding: 10px 12px;
+    width: 100%;
+    top: inherit;
+    bottom: 0px;
     transition: padding .2s linear;
   }
 }
