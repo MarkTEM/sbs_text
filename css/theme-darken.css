@@ -1,23 +1,47 @@
 :root {
+  --color-bg0: #080709;
+  --color-bg: #0F0D11;
+  --color-txt: #F2F2F2;
+  --color-txt-p: #b1b1b1;
+  --color-txt2: #f5f5f5;
+  --color__p2: #aaabad;
+  --color-box: #1b1a1e;
+  --color-i-box: #191919;
 
-    --color-bg: #0D0D0D;
-    --color-txt: #e2e2e2;
-    --color-box: #161616;
+  --color-header: #1f1f1f;
+  --color-header2: rgb(22 21 24 / 90%);
+  --color-header-txt: #F2F2F2;
+  --color-item: #212023;
+  --color-item2: #202020;
 
-    --color-header: #1b1b1d00;
-    --color-item: #1D1D1E;
-    --color-item2: #181818;
-
-    --color-elements: #5480F1;
-    --color-border: #222224;
+  --color-elements: #5480F1;
+  --color-border: #373639;
+  --color-border2: #00000000;
+  --color-nav: #232325ed;
+  --color-hover: #353538;
+  /*-Cont-menu-*/
+  --color-menu: #232325ed;
+  --color-menuhover: #353538;
+  --color-menutext: #F2F2F2;
+  --color-bordermenu: #2e2e2e;
+  --wight-textm: 400;
     /* --color-elements: #3282CD; */
     /* ICO */
     --ico-back: url(../ico/ico_back.svg);
     --ico-home: url(../ico/ico_home.svg);
+    --ico-home2: url(../ico/ico_home.svg);
     --ico-settings: url(../ico/ico_settings.svg);
+    --ico-exit: url(../ico/ico_exit.svg);
+    --ico-menu: url(../ico/ico_menu.svg);
+    --ico-exit: url(../ico/ico_exit.svg);
+    --ico-close: url(../ico/ico_close.svg);
+    --ico-help: url(../ico/ico_help.svg);
     --ico-search: url(../ico/ico_search.svg);
+    --ico-top: url(../ico/ico_top.svg);
     --ico-dop: url(../ico/ico_dop.svg);
     --ico-new: url(../ico/ico_new.svg);
+    --ico-collection: url(../ico/ico_collection.svg);
+    --ico-favourites: url(../ico/ico_favourites.svg);
     --ico-prog: url(../ico/ico_prog.svg);
     --ico-workout: url(../ico/ico_workout.svg);
     --ico-exercises: url(../ico/ico_exercises.svg);
@@ -28,17 +52,26 @@
     --ico-hint: url(../ico/ico_hint.svg);
 
     --radius: 15px;
+    --box-padding: 20px;
+    --margin: 20px;
 
     --shad: 0;
 
     --cont-padding: 30px;
     --cont-padding2: 15px;
 
+    --bg-menu-bottom: rgba(40, 40, 40, 0.9);
+
 }
 
 h1 { font-size: 22px; color: var(--color-txt); font-weight: 500; transition: .2s; }
 @media screen and (max-width: 720px) { h1 { font-size: 18px; transition: .2s;} }
 h3 { font-size: 15px; color: var(--color-txt); font-weight: 400; }
+
+h1 { font-weight: 500; letter-spacing: 0.05em; }
+h2 { font-weight: 500; }
+h3 { font-weight: 400; }
+p { font-weight: 400; }
 
 .change-theme[data-theme="darken"] {
     background: var(--color-elements);
