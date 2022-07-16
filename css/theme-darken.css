@@ -9,7 +9,7 @@
   --color-i-box: #191919;
 
   --color-header: #1f1f1f;
-  --color-header2: rgb(22 21 24 / 90%);
+  --color-header2: rgb(25 24 28 / 90%);
   --color-header-txt: #F2F2F2;
   --color-item: #212023;
   --color-item2: #202020;
@@ -17,8 +17,8 @@
   --color-elements: #5480F1;
   --color-border: #373639;
   --color-border2: #00000000;
-  --color-nav: #232325ed;
-  --color-hover: #353538;
+  --color-nav: #2a282c;
+  --color-hover: #353338;
   /*-Cont-menu-*/
   --color-menu: #232325ed;
   --color-menuhover: #353538;
@@ -51,9 +51,9 @@
     --ico-lock: url(../ico/ico_lock.svg);
     --ico-hint: url(../ico/ico_hint.svg);
 
-    --radius: 15px;
+    --radius: 8px;
     --box-padding: 20px;
-    --margin: 20px;
+    --margin: 15px;
 
     --shad: 0;
 
