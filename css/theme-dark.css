@@ -56,8 +56,9 @@ body::-webkit-scrollbar-track-piece { border-radius: 2rem; }
 
     --ico-lock: url(../ico/ico_lock.svg);
     --ico-hint: url(../ico/ico_hint.svg);
+    --ico-view: url(../ico/ico_view.svg);
 
-    --radius: 15px;
+    --radius: 12px;
     --box-padding: 20px;
     --margin: 20px;
 
@@ -75,7 +76,8 @@ body::-webkit-scrollbar-track-piece { border-radius: 2rem; }
     }
 }
 
-h1 { font-weight: 600; }
+h1 { font-weight: 600; letter-spacing: 0.01em; }
+h2 { font-weight: 500; }
 h3 { font-weight: 400; }
 p { font-weight: 400; }
 
