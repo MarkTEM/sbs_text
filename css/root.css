@@ -38,11 +38,15 @@ body::-webkit-scrollbar-track-piece { border-radius: 2rem; }
 
 /*---Текст---*/
 a { text-decoration: none; }
-h1 { font-size: 20px; color: var(--color-txt); font-weight: 600; transition: .2s; }
-@media screen and (max-width: 720px) { h1 { font-size: 18px; transition: .2s;} }
+h1 { font-size: 20px; color: var(--color-txt); font-weight: 600;
+  transition: .1s;
+}
+@media screen and (max-width: 720px) { h1 { font-size: 18px; }}
 
-h2 { font-size: 18px; color: var(--color-txt); font-weight: 700; transition: .2s; }
-@media screen and (max-width: 720px) { h2 { font-size: 16px; transition: .2s;} }
+h2 { font-size: 18px; color: var(--color-txt); font-weight: 700;
+  transition: .1s;
+}
+@media screen and (max-width: 720px) { h2 { font-size: 16px; }}
 
 h3 { font-size: 15px; color: var(--color-txt); font-weight: 600; }
 
