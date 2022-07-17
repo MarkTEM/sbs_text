@@ -27,7 +27,7 @@
   --wight-textm: 400;
     /* --color-elements: #3282CD; */
     /* ICO */
-    --ico-back: url(../ico/ico_back.svg);
+    --ico-back: url(../ico/btn_back-blue.svg);
     --ico-home: url(../ico/ico_home.svg);
     --ico-home2: url(../ico/ico_home.svg);
     --ico-settings: url(../ico/ico_settings.svg);
@@ -51,9 +51,9 @@
     --ico-lock: url(../ico/ico_lock.svg);
     --ico-hint: url(../ico/ico_hint.svg);
 
-    --radius: 8px;
+    --radius: 12px;
     --box-padding: 20px;
-    --margin: 15px;
+    --margin: 20px;
 
     --shad: 0;
 
@@ -68,7 +68,7 @@ h1 { font-size: 22px; color: var(--color-txt); font-weight: 500; transition: .2s
 @media screen and (max-width: 720px) { h1 { font-size: 18px; transition: .2s;} }
 h3 { font-size: 15px; color: var(--color-txt); font-weight: 400; }
 
-h1 { font-weight: 500; letter-spacing: 0.05em; }
+h1 { font-weight: 500; letter-spacing: 0.02em; }
 h2 { font-weight: 500; }
 h3 { font-weight: 400; }
 p { font-weight: 400; }
