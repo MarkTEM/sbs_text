@@ -233,9 +233,10 @@ h2::marker {
   border-radius: var(--radius);
   /* height: 400px; */
   box-shadow: var(--shad);
-  border: 1px solid var(--color-border2);
+  outline: 1px solid var(--color-border2);
   overflow: hidden;
-  transition: .10s ease-in-out;
+  transition: 100ms ease-in-out;
+  transition-property: outline,transform;
 }
 @media only screen and (max-width: 720px) {
   .new__item {
@@ -250,8 +251,7 @@ h2::marker {
 
 } */
 .new__item:hover {
-  border: 1px solid var(--color-elements);
-  transition: .10s ease-in-out;
+  outline: 1px solid var(--color-elements);
   transform: scale(1.01);
   /* transition: .1s linear; */
 
@@ -263,7 +263,7 @@ h2::marker {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  transition: padding .2s linear;
+  /* transition: padding .2s linear; */
 
 }
 .photo__1 { background-image: url(../img/ps3.jpg); }
@@ -278,11 +278,19 @@ h2::marker {
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
+  height: 120px;
   /* background: var(--color-box); */
   /* height: 100%; */
   padding: var(--box-padding);
   background: var(--color-box);
   z-index: 990;
+}
+.new__list h2 {
+  overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
 }
 .new__list {
   animation-duration: .6s;
