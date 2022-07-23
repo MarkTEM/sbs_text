@@ -63,7 +63,7 @@ h2::marker {
 @media screen and (max-width: 720px) {
   .bg { border-radius: 15px; padding: 12px 12px;}
 }
-.bg {
+/* .bg {
   animation-duration: .6s;
   animation-name: bg;
   transition-timing-function: ease-in;
@@ -72,7 +72,6 @@ h2::marker {
 @media screen and (min-width: 720px) {
   @keyframes bg {
     0% {
-      margin-top: 20px;
       padding-top: 30px;
     }
     100% { }
@@ -81,12 +80,11 @@ h2::marker {
 @media screen and (max-width: 720px) {
   @keyframes bg {
     0% {
-      margin-top: 10px;
       padding-top: 20px;
     }
     100% { }
   }
-}
+} */
 /* --------*/
 #wrap__center {
   display: grid;
@@ -128,7 +126,20 @@ h2::marker {
 }
 /* ---------- */
 
+.content {
+  animation-duration: 600ms;
+  animation-name: bs2g;
+  transition-timing-functio: ease-in-out;
 
+}
+
+@keyframes bs2g {
+  0% {
+    padding-top: 30px;
+    transform: scale(0.98);
+  }
+  100% { }
+}
 
 /* --------*/
 .akk__box {
@@ -213,7 +224,6 @@ h2::marker {
   outline: 1px solid var(--color-border2);
   box-shadow: var(--shad);
   overflow: hidden;
-  transition: outline 100ms;
 }
 
 @media only screen and (max-width: 720px) {
