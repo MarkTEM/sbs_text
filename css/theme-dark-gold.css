@@ -13,7 +13,7 @@ body::-webkit-scrollbar-track-piece { border-radius: 2rem; }
     --color-box: #1f1f1f;
     --color-i-box: #191919;
 
-    --color-header2: rgb(15 15 15 / 90%);
+    --color-header2: rgba(19, 19, 19, 0.95);
     --color-header-txt: #F2F2F2;
     --color-item: #19191a;
     --color-item2: #181818;
@@ -70,7 +70,7 @@ body::-webkit-scrollbar-track-piece { border-radius: 2rem; }
 }
 
 h1 { font-weight: 600; letter-spacing: 0.01em; }
-h2 { font-weight: 500; }
+h2 { font-weight: 600; }
 h3 { font-weight: 400; }
 p { font-weight: 400; }
 

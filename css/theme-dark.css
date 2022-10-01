@@ -15,10 +15,12 @@ body::-webkit-scrollbar-track-piece { border-radius: 2rem; }
     --color-i-box: #191919;
 
     --color-header: #1f1f1f;
-    --color-header2: rgba(19, 19, 19, 0.9);
+    --color-header2: rgba(19, 19, 19, 0.95);
     --color-header-txt: #F2F2F2;
     --color-item: #1e1e1e;
     --color-item2: #202020;
+
+    /* --color-main: #3282CD; */
 
     --color-elements: #3282CD;
     --color-border: #404044;
@@ -84,4 +86,8 @@ p { font-weight: 400; }
 .change-theme[data-theme="dark"] {
     background: var(--color-elements);
     border: 1px solid var(--color-elements);
+}
+[data-temp='dark'] {
+    --radius: 52px;
+    --color-elements: #000;
 }
